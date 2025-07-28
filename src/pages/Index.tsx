@@ -54,7 +54,8 @@ const processScandalsData = (): ScandalEvent[] => {
     // Remover duplicatas baseadas no nome do evento
     const uniqueEvents = Array.from(new Map(allEvents.map(e => [e.nome, e])).values());
     
-    return uniqueEvents.sort((a, b) => a.year - b.year);
+    // Ordenar do mais recente para o mais antigo
+    return uniqueEvents.sort((a, b) => b.year - a.year);
   } catch (error) {
     console.error("Error processing scandal data:", error);
     return [];
