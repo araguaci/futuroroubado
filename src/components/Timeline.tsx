@@ -24,10 +24,15 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
         governmentCounts[event.governo] = (governmentCounts[event.governo] || 0) + 1;
       }
     });
-    const sortedGovernments = Object.entries(governmentCounts)
-      .sort(([, a], [, b]) => b - a)
-      .map(([gov]) => gov);
-    return ['Todos', ...sortedGovernments.slice(0, 7)];
+
+    const governmentFilters = Object.entries(governmentCounts)
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 7); // Top 7 governments
+
+    const allEventsCount = events.length;
+
+    return [{ name: 'Todos', count: allEventsCount }, ...governmentFilters];
   }, [events]);
 
   const filteredEvents = useMemo(() => {
@@ -84,15 +89,15 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
       <div className="flex flex-wrap justify-center gap-2 mb-4">
         {filters.map(filter => (
           <Button
-            key={filter}
-            variant={activeFilter === filter ? 'default' : 'outline'}
+            key={filter.name}
+            variant={activeFilter === filter.name ? 'default' : 'outline'}
             onClick={() => {
-              setActiveFilter(filter);
+              setActiveFilter(filter.name);
               setSearchTerm('');
             }}
             className="text-xs sm:text-sm"
           >
-            {filter}
+            {filter.name} {filter.count > 0 && `(${filter.count})`}
           </Button>
         ))}
         {(activeFilter !== 'Todos' || searchTerm) && (
