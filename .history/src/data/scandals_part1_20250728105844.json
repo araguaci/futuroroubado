@@ -2,7 +2,7 @@
   "1990s": [
     {
       "nome": "Escândalo do Proer",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Programa bancário.",
       "envolvidos": "Bancos.",
       "consequencias": "Ligação indireta.",
@@ -40,7 +40,7 @@
   "2000s": [
     {
       "nome": "Escândalo da Suposta Ligação do PT com o MST",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Alegações de financiamento ilegal.",
       "envolvidos": "PT, MST.",
       "consequencias": "Não comprovado.",
@@ -48,7 +48,7 @@
     },
     {
       "nome": "Escândalo da Suposta Ligação do PT com a FARC",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Acusações de apoio a guerrilha.",
       "envolvidos": "PT.",
       "consequencias": "Não substanciado.",
@@ -56,7 +56,7 @@
     },
     {
       "nome": "Licitação Para a Compra de Gêneros Básicos",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Superfaturamento em compras.",
       "envolvidos": "Governo federal.",
       "consequencias": "Investigações menores.",
@@ -64,7 +64,7 @@
     },
     {
       "nome": "Caso José Eduardo Dutra",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Irregularidades na Petrobras.",
       "envolvidos": "José Eduardo Dutra.",
       "consequencias": "Sem condenações.",
@@ -72,7 +72,7 @@
     },
     {
       "nome": "Escândalo dos Frangos (Roraima)",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Fraudes em exportações.",
       "envolvidos": "Locais em Roraima.",
       "consequencias": "Investigações.",
@@ -80,7 +80,7 @@
     },
     {
       "nome": "Escândalo da Norospar",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Irregularidades em saúde no PR.",
       "envolvidos": "Associação Norospar.",
       "consequencias": "Sem ligação federal direta.",
@@ -88,7 +88,7 @@
     },
     {
       "nome": "Escândalo da NGO Ágora",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Desvios em convênios.",
       "envolvidos": "ONG Ágora.",
       "consequencias": "Investigações.",
@@ -96,7 +96,7 @@
     },
     {
       "nome": "Caso Henrique Meirelles",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Irregularidades financeiras.",
       "envolvidos": "Henrique Meirelles.",
       "consequencias": "Absolvição.",
@@ -104,7 +104,7 @@
     },
     {
       "nome": "Irregularidades na Bolsa-Escola",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Desvios no programa.",
       "envolvidos": "Gestores.",
       "consequencias": "Auditorias.",
@@ -112,7 +112,7 @@
     },
     {
       "nome": "Irregularidades do Programa Restaurante Popular",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Favorecimento a prefeituras PT.",
       "envolvidos": "Programa.",
       "consequencias": "Investigações.",
@@ -120,7 +120,7 @@
     },
     {
       "nome": "Escândalo dos Fundos de Pensão",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Desvios em fundos.",
       "envolvidos": "Fundos de pensão.",
       "consequencias": "Operações PF.",
@@ -128,7 +128,7 @@
     },
     {
       "nome": "Escândalo do Foro de São Paulo",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Alegações ideológicas.",
       "envolvidos": "PT.",
       "consequencias": "Não criminal.",
@@ -146,7 +146,7 @@
     },
     {
       "nome": "Várias Aberturas de Licitações da Presidência Para a Compra de Artigos de Luxo",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Gastos excessivos em luxos.",
       "envolvidos": "Presidência.",
       "consequencias": "Críticas.",
@@ -154,7 +154,7 @@
     },
     {
       "nome": "Lei de Responsabilidade Fiscal (Recuos)",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Descumprimento da LRF.",
       "envolvidos": "Governo federal.",
       "consequencias": "Debates econômicos.",
@@ -162,7 +162,7 @@
     },
     {
       "nome": "Abuso de Medidas Provisórias no Governo Lula",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Excesso de MPs.",
       "envolvidos": "Governo Lula.",
       "consequencias": "Críticas constitucionais.",
@@ -180,7 +180,7 @@
     },
     {
       "nome": "Escândalo dos Gastos Públicos dos Ministros",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Uso excessivo de recursos.",
       "envolvidos": "Ministros de Lula.",
       "consequencias": "Críticas, ajustes normativos.",
@@ -188,7 +188,7 @@
     },
     {
       "nome": "Escândalo de Corrupção dos Ministros no Governo Lula",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Múltiplos casos de ministros.",
       "envolvidos": "Ministros.",
       "consequencias": "Demissões.",
@@ -198,7 +198,7 @@
   "2006-2007": [
     {
       "nome": "Crise no Setor Aéreo",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Caos em aeroportos.",
       "envolvidos": "Setor aéreo.",
       "consequencias": "Reformas.",
@@ -208,7 +208,7 @@
   "2011-2012": [
     {
       "nome": "Faxina Ética de Dilma",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Demissões de ministros por irregularidades.",
       "envolvidos": "Palocci, Rossi, Silva, Novais, Negromonte.",
       "consequencias": "Reformas ministeriais.",
@@ -218,7 +218,7 @@
   "2015-2016": [
     {
       "nome": "Pedaladas Fiscais",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Manobras contábeis ilegais.",
       "envolvidos": "Dilma, equipe econômica.",
       "consequencias": "Impeachment.",
@@ -226,7 +226,7 @@
     },
     {
       "nome": "Operação Zelotes",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Fraudes no CARF, envolvendo filho de Lula.",
       "envolvidos": "Luís Cláudio Lula da Silva, conselheiros.",
       "consequencias": "Prisões, processos.",
@@ -236,7 +236,7 @@
   "Não especificado": [
     {
       "nome": "Contra Políticos da Bahia",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Alegações vagas de corrupção política.",
       "envolvidos": "Políticos baianos.",
       "consequencias": "Sem detalhes substanciais.",
@@ -244,7 +244,7 @@
     },
     {
       "nome": "Caso Antônio Celso Cipriani",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Alegações vagas.",
       "envolvidos": "Antônio Celso Cipriani.",
       "consequencias": "Sem detalhes.",
@@ -252,7 +252,7 @@
     },
     {
       "nome": "Escândalo da Interbrazil",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Alegações vagas.",
       "envolvidos": "Interbrazil.",
       "consequencias": "Sem detalhes.",
@@ -1128,7 +1128,7 @@
     },
     {
       "nome": "Caso Toninho do PT",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Assassinato do prefeito de Campinas, suspeitas locais.",
       "envolvidos": "Suspeitos locais, PT.",
       "consequencias": "Sem conexão federal comprovada.",
@@ -1202,7 +1202,7 @@
     },
     {
       "nome": "Caso Celso Daniel",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Assassinato do prefeito petista, alegações de ligação com corrupção no PT.",
       "envolvidos": "Família Daniel, PT local.",
       "consequencias": "Investigações inconclusivas.",
@@ -1210,7 +1210,7 @@
     },
     {
       "nome": "Escândalo do Propinoduto (Caso Rodrigo Silveirinha)",
-      "governo": "Governo Lula (2003-2014)",
+      "governo": "Escândalos nos Governos Lula e Dilma",
       "descricao": "Desvios em obras no RJ.",
       "envolvidos": "Políticos locais.",
       "consequencias": "Prisões.",
