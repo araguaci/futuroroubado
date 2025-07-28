@@ -146,7 +146,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                     {/* Year display: Aligned with line on mobile, centered on desktop */}
                     <div className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center border-4 border-white shadow-md">
                       <span className="text-white text-base font-bold">
-                        {event.yearLabel === String(event.year) ? event.year : event.yearLabel}
+                        {event.yearLabel}
                       </span>
                     </div>
                     {/* Horizontal line for desktop year marker */}
