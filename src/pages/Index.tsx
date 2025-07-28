@@ -1,8 +1,9 @@
 import Timeline from '@/components/Timeline';
 import React from 'react';
 import { ScandalEvent } from '@/types';
-import scandalsPart1 from '@/data/scandals_part1.json'; // Importar o JSON
-import scandalsPart2 from '@/data/scandals_part2.json'; // Importar o JSON
+import scandalsPart1 from '@/data/scandals_part1.json';
+import scandalsPart2 from '@/data/scandals_part2.json';
+import { normalizeGovernmentName } from '@/utils/data-processing'; // Importar a nova função
 
 const processScandalsData = (): ScandalEvent[] => {
   try {
@@ -25,7 +26,7 @@ const processScandalsData = (): ScandalEvent[] => {
           nome: event.nome,
           descricao: event.descricao,
           envolvidos: event.envolvidos,
-          governo: event.governo || 'Não especificado',
+          governo: normalizeGovernmentName(event.governo), // Normalizar o nome do governo
           consequencias: event.consequencias || '',
           year: year,
           yearLabel: key,
@@ -42,7 +43,7 @@ const processScandalsData = (): ScandalEvent[] => {
           nome: event.titulo,
           descricao: event.descricao,
           envolvidos: event.envolvidos,
-          governo: event.governo || 'Não especificado',
+          governo: normalizeGovernmentName(event.governo), // Normalizar o nome do governo
           consequencias: event.consequencias || '',
           year: year,
           yearLabel: key,
