@@ -24,11 +24,21 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
 
   // Determina as classes de estilo do cartão com base em isMobile e isLeft
   const cardClasses = cn(
-    'p-4 rounded-lg shadow-lg',
+    'p-4 rounded-lg shadow-lg relative', // Adicionado 'relative' para posicionamento do ponteiro
     {
       'bg-gray-100 hover:bg-gray-200': isMobile, // Cor neutra para mobile
       'bg-blue-100 hover:bg-blue-200': !isMobile && isLeft, // Cores alternadas para desktop (lado esquerdo)
       'bg-green-100 hover:bg-green-200': !isMobile && !isLeft, // Cores alternadas para desktop (lado direito)
+    }
+  );
+
+  // Determina as classes de estilo do ponteiro
+  const pointerClasses = cn(
+    'absolute w-0 h-0 border-t-8 border-b-8 border-solid',
+    {
+      'border-l-8 border-l-blue-100 -right-4': !isMobile && isLeft, // Ponteiro para a direita (cartão na esquerda)
+      'border-r-8 border-r-green-100 -left-4': !isMobile && !isLeft, // Ponteiro para a esquerda (cartão na direita)
+      'top-1/2 -translate-y-1/2': !isMobile, // Centraliza verticalmente no desktop
     }
   );
 
@@ -37,6 +47,9 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
       <DialogTrigger asChild>
         <div className="block cursor-pointer transition-transform transform hover:scale-105">
           <div className={cardClasses}>
+            {!isMobile && ( // Renderiza o ponteiro apenas no desktop
+              <div className={pointerClasses}></div>
+            )}
             <h3 className="font-bold text-base md:text-lg mb-1 text-gray-900">{event.nome}</h3>
             <p className="text-sm text-gray-700 mb-2">{event.descricao}</p>
             <p className="text-xs text-gray-500"><strong>Data:</strong> {event.yearLabel}</p>
