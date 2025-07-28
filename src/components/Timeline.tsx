@@ -139,7 +139,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                 {showYear && (
                   <div className="relative my-8" style={{ zIndex: 2 }}>
                     {/* Year display: Aligned with line on mobile, centered on desktop */}
-                    <div className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                    <div className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 top-1/2 -translate-y-1/2 w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center border-4 border-white shadow-md">
                       <span className="text-white text-base font-bold">
                         {event.yearLabel === String(event.year) ? event.year : event.yearLabel}
                       </span>
@@ -159,9 +159,6 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                   // flex-row-reverse is applied when the card should be on the left side (isLeft)
                   { "flex-row-reverse": !isMobile && isLeft }
                 )}>
-                  {/* Spacer for desktop layout */}
-                  <div className={cn("hidden md:block", { "w-5/12": !isMobile })}></div>
-                  
                   {/* Central dot: Aligned with line on mobile, centered on desktop */}
                   <div className="z-10 absolute left-8 md:left-1/2 md:relative md:transform md:-translate-x-1/2">
                     <div className="w-4 h-4 bg-gray-800 border-2 border-white rounded-full shadow-sm"></div>
