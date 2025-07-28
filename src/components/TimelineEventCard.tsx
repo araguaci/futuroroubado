@@ -9,6 +9,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from '@/components/ui/button';
+import { MessageCircle } from 'lucide-react'; // Importar o ícone
 
 interface TimelineEventCardProps {
   event: ScandalEvent;
@@ -44,8 +45,8 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft }) 
         </div>
         <div className="flex justify-end">
           <Button asChild>
-            <a href={chatGptQuery} target="_blank" rel="noopener noreferrer">
-              Perguntar ao ChatGPT
+            <a href={chatGptQuery} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <MessageCircle className="h-4 w-4" /> Perguntar ao ChatGPT
             </a>
           </Button>
         </div>
