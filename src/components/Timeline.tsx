@@ -96,7 +96,6 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
             const showYear = event.year !== lastYear;
             lastYear = event.year;
             const isLeft = index % 2 === 0; // Determines side for desktop layout
-            const cardIsLeft = isMobile ? false : isLeft; // Controls card background color
 
             return (
               <div key={`${event.nome}-${index}`} className="relative">
@@ -127,7 +126,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                     "w-full px-2 md:px-0",
                     { "md:w-5/12": !isMobile } // Take 5/12 width on desktop
                   )}>
-                    <TimelineEventCard event={event} isLeft={cardIsLeft} />
+                    <TimelineEventCard event={event} isLeft={isLeft} isMobile={isMobile} />
                   </div>
                 </div>
               </div>
