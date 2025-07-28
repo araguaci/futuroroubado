@@ -2021,10 +2021,17 @@ const processScandalsData = (): ScandalEvent[] => {
     
     const allEvents: ScandalEvent[] = [];
 
+    const parseYear = (yearKey: string): number => {
+      if (yearKey === "Não especificado") {
+        return 9999; // Assign a very high year to place it at the end
+      }
+      // For "1990s", "1995-2002", etc., parseInt will correctly extract the starting year
+      return parseInt(yearKey, 10);
+    };
+
     // Processar data1
     for (const key in data1) {
-      const year = parseInt(key);
-      if (isNaN(year)) continue;
+      const year = parseYear(key);
 
       data1[key].forEach((event: any) => {
         allEvents.push({
@@ -2041,8 +2048,7 @@ const processScandalsData = (): ScandalEvent[] => {
 
     // Processar data2
     for (const key in data2) {
-      const year = parseInt(key);
-      if (isNaN(year)) continue;
+      const year = parseYear(key);
 
       data2[key].forEach((event: any) => {
         allEvents.push({

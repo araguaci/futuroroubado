@@ -70,12 +70,12 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
 
           return (
             <div key={`${event.nome}-${index}`}>
-              {showYear && event.year && (
+              {showYear && (
                 <div className="relative my-8" style={{ zIndex: 2 }}>
-                  <div className="sticky top-20 md:top-24">
-                    <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center border-4 border-white">
-                      <span className="text-white text-sm font-bold">{event.year}</span>
-                    </div>
+                  <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-4 w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center border-4 border-white">
+                    <span className="text-white text-sm font-bold">
+                      {event.yearLabel === String(event.year) ? event.year : event.yearLabel}
+                    </span>
                   </div>
                 </div>
               )}
