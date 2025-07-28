@@ -146,9 +146,9 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                     </div>
                     {/* Horizontal line for desktop year marker */}
                     <div className={cn(
-                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-0.5 bg-gray-400 w-16", // Fixed width for simplicity
-                      { "left-[calc(50%-4rem)]": isLeft }, // Position to the left of the year circle
-                      { "right-[calc(50%-4rem)]": !isLeft } // Position to the right of the year circle
+                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-0.5 bg-gray-400 w-24", // Increased width to w-24 (6rem)
+                      { "left-[calc(50%-0.5rem-6rem)]": isLeft }, // Starts 6rem to the left of the year circle's left edge (0.5rem is half of w-16)
+                      { "left-[calc(50%+0.5rem)]": !isLeft } // Starts at the year circle's right edge
                     )}></div>
                   </div>
                 )}
