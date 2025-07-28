@@ -71,7 +71,7 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
             {event.descricao}
           </DialogDescription>
         </DialogHeader>
-        <div className="grid gap-3 py-2 text-gray-800 text-sm"> {/* Adjusted gap and text size */}
+        <div className="grid gap-2 py-2 text-gray-800 text-base"> {/* Adjusted gap and text size */}
           <p><strong>Envolvidos:</strong> {event.envolvidos}</p>
           <p><strong>Governo:</strong> {event.governo}</p>
           <p><strong>Consequências:</strong> {event.consequencias}</p>
