@@ -28,7 +28,17 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-gray-700 text-sm md:text-base">{event.descricao}</p>
+        <p className="text-gray-700 text-sm md:text-base mb-2">{event.descricao}</p>
+        {event.envolvidos && (
+          <p className="text-gray-800 text-sm md:text-base font-medium mb-1">
+            <span className="font-semibold">Envolvidos:</span> {event.envolvidos}
+          </p>
+        )}
+        {event.consequencias && (
+          <p className="text-gray-800 text-sm md:text-base font-medium">
+            <span className="font-semibold">Consequências:</span> {event.consequencias}
+          </p>
+        )}
       </CardContent>
     </Card>
   );
