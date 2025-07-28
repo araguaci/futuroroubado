@@ -156,8 +156,8 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                 <div className={cn(
                   "relative mb-8 flex items-center w-full",
                   // On desktop, alternate sides. On mobile, always left-aligned (no flex-row-reverse)
-                  // flex-row-reverse is applied when the card should be on the right side (!isLeft)
-                  { "flex-row-reverse": !isMobile && !isLeft }
+                  // flex-row-reverse is applied when the card should be on the left side (isLeft)
+                  { "flex-row-reverse": !isMobile && isLeft }
                 )}>
                   {/* Spacer for desktop layout */}
                   <div className={cn("hidden md:block", { "w-5/12": !isMobile })}></div>
