@@ -82,7 +82,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
 
       <div className="relative">
         {/* Central Line */}
-        <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-300 transform -translate-x-1/2" aria-hidden="true"></div>
+        <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-400 transform -translate-x-1/2" aria-hidden="true"></div>
 
         {filteredEvents.length === 0 ? (
           <div className="text-center text-gray-600 text-lg mt-16">
@@ -109,7 +109,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                 <div className={`relative mb-8 flex items-center w-full ${isLeft ? 'flex-row-reverse' : ''}`}>
                   <div className="hidden md:block w-5/12"></div> {/* Spacer */}
                   <div className="z-10 absolute left-1/2 transform -translate-x-1/2 md:relative">
-                    <div className="w-4 h-4 bg-gray-500 border-2 border-white rounded-full shadow-sm"></div>
+                    <div className="w-4 h-4 bg-gray-800 border-2 border-white rounded-full shadow-sm"></div>
                   </div>
                   <div className="w-full md:w-5/12 px-2 md:px-0">
                     <TimelineEventCard event={event} isLeft={isLeft} />
