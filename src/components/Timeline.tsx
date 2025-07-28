@@ -152,10 +152,12 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                 {/* Esqueleto do marcador de ano */}
                 <div className="relative h-24 flex items-center justify-center" style={{ zIndex: 2 }}>
                   <Skeleton className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 w-16 h-16 rounded-full" />
+                  
+                  {/* Esqueleto da linha horizontal */}
                   <div className={cn(
-                    "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-[96px]", // Usando w-[96px] para garantir largura
-                    { "right-[calc(50%+32px)]": i % 2 === 0 }, // Linha se estende para a esquerda
-                    { "left-[calc(50%+32px)]": i % 2 !== 0 }  // Linha se estende para a direita
+                    "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-8", // Alterado w-[96px] para w-8
+                    { "left-[calc(50%-4rem)]": i % 2 === 0 }, // Posicionamento ajustado para o lado esquerdo
+                    { "left-[calc(50%+2rem)]": i % 2 !== 0 }  // Posicionamento ajustado para o lado direito
                   )}></div>
                 </div>
                 
@@ -163,7 +165,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   "relative flex items-center w-full",
                   { "flex-row-reverse": !isMobile && i % 2 === 0 }
                 )}>
-                  <div className={cn("hidden md:block", { "md:max-w-sm": !isMobile })}></div> {/* Alterado de w-5/12 para max-w-sm */}
+                  <div className={cn("hidden md:block", { "md:max-w-sm": !isMobile })}></div>
                   
                   {/* Esqueleto do ponto central */}
                   <div className="z-10 absolute left-8 md:left-1/2 top-1/2 -translate-y-1/2 md:transform md:-translate-x-1/2">
@@ -172,11 +174,11 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   
                   {/* Esqueleto do cartão do evento */}
                   <div className={cn(
-                    "w-full px-2 md:px-4", // Adicionado md:px-4 para padding interno
-                    { "md:max-w-sm": !isMobile }, // Alterado de w-5/12 para max-w-sm
+                    "w-full px-2 md:px-4",
+                    { "md:max-w-sm": !isMobile },
                     { "ml-12": isMobile },
-                    { "md:mr-8": !isMobile && i % 2 === 0 }, // Margem para card alinhado à esquerda
-                    { "md:ml-8": !isMobile && i % 2 !== 0 }  // Margem para card alinhado à direita
+                    { "md:mr-16": !isMobile && i % 2 === 0 }, // Alterado md:mr-8 para md:mr-16
+                    { "md:ml-16": !isMobile && i % 2 !== 0 }  // Alterado md:ml-8 para md:ml-16
                   )}>
                     <Skeleton className="h-32 w-full rounded-lg" />
                   </div>
@@ -203,10 +205,12 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                         {event.yearLabel}
                       </span>
                     </div>
+                    
+                    {/* Linha horizontal para o marcador de ano */}
                     <div className={cn(
-                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-[96px]", // Usando w-[96px] para garantir largura
-                      { "right-[calc(50%+32px)]": isLeft }, // Linha se estende para a esquerda
-                      { "left-[calc(50%+32px)]": !isLeft } // Linha se estende para a direita
+                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-8", // Alterado w-[96px] para w-8
+                      { "left-[calc(50%-4rem)]": isLeft }, // Posicionamento ajustado para o lado esquerdo
+                      { "left-[calc(50%+2rem)]": !isLeft } // Posicionamento ajustado para o lado direito
                     )}></div>
                   </div>
                 )}
@@ -215,18 +219,18 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   "relative flex items-center w-full",
                   { "flex-row-reverse": !isMobile && isLeft }
                 )}>
-                  <div className={cn("hidden md:block", { "md:max-w-sm": !isMobile })}></div> {/* Alterado de w-5/12 para max-w-sm */}
+                  <div className={cn("hidden md:block", { "md:max-w-sm": !isMobile })}></div>
                   
                   <div className="z-10 absolute left-8 md:left-1/2 top-1/2 -translate-y-1/2 md:transform md:-translate-x-1/2">
                     <div className="w-4 h-4 bg-gray-800 border-2 border-white rounded-full shadow-sm"></div>
                   </div>
                   
                   <div className={cn(
-                    "w-full px-2 md:px-4", // Adicionado md:px-4 para padding interno
-                    { "md:max-w-sm": !isMobile }, // Alterado de w-5/12 para max-w-sm
+                    "w-full px-2 md:px-4",
+                    { "md:max-w-sm": !isMobile },
                     { "ml-12": isMobile },
-                    { "md:mr-8": !isMobile && isLeft }, // Margem para card alinhado à esquerda
-                    { "md:ml-8": !isMobile && !isLeft }  // Margem para card alinhado à direita
+                    { "md:mr-16": !isMobile && isLeft }, // Alterado md:mr-8 para md:mr-16
+                    { "md:ml-16": !isMobile && !isLeft }  // Alterado md:ml-8 para md:ml-16
                   )}>
                     <TimelineEventCard event={event} isLeft={isLeft} isMobile={isMobile} />
                   </div>
