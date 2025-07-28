@@ -22,22 +22,30 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
   // Atualiza a query para incluir o nome e a descrição do escândalo
   const chatGptQuery = `https://chat.openai.com/?q=Me%20conte%20mais%20sobre%20o%20escândalo%20${encodeURIComponent(event.nome)}:%20${encodeURIComponent(event.descricao)}`;
 
+  // Define as cores do cartão e do ponteiro
+  const cardColors = {
+    mobile: { bg: 'bg-gray-100', hover: 'hover:bg-gray-200', pointerBorder: 'border-gray-100' },
+    left: { bg: 'bg-blue-100', hover: 'hover:bg-blue-200', pointerBorder: 'border-blue-100' },
+    right: { bg: 'bg-green-100', hover: 'hover:bg-green-200', pointerBorder: 'border-green-100' },
+  };
+
+  const currentColors = isMobile
+    ? cardColors.mobile
+    : (isLeft ? cardColors.left : cardColors.right);
+
   // Determina as classes de estilo do cartão com base em isMobile e isLeft
   const cardClasses = cn(
     'p-4 rounded-lg shadow-lg relative', // Adicionado 'relative' para posicionamento do ponteiro
-    {
-      'bg-gray-100 hover:bg-gray-200': isMobile, // Cor neutra para mobile
-      'bg-blue-100 hover:bg-blue-200': !isMobile && isLeft, // Cores alternadas para desktop (lado esquerdo)
-      'bg-green-100 hover:bg-green-200': !isMobile && !isLeft, // Cores alternadas para desktop (lado direito)
-    }
+    currentColors.bg,
+    currentColors.hover
   );
 
   // Determina as classes de estilo do ponteiro
   const pointerClasses = cn(
     'absolute w-0 h-0 border-t-8 border-b-8 border-solid',
     {
-      'border-l-8 border-l-blue-100 -right-4': !isMobile && isLeft, // Ponteiro para a direita (cartão na esquerda)
-      'border-r-8 border-r-green-100 -left-4': !isMobile && !isLeft, // Ponteiro para a esquerda (cartão na direita)
+      [`border-l-8 ${currentColors.pointerBorder} -right-4`]: !isMobile && isLeft, // Ponteiro para a direita (cartão na esquerda)
+      [`border-r-8 ${currentColors.pointerBorder} -left-4`]: !isMobile && !isLeft, // Ponteiro para a esquerda (cartão na direita)
       'top-1/2 -translate-y-1/2': !isMobile, // Centraliza verticalmente no desktop
     }
   );
