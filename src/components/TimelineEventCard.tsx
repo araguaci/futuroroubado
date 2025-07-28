@@ -64,20 +64,20 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
           </div>
         </div>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px] md:max-w-2xl">
-        <DialogHeader>
+      <DialogContent className="sm:max-w-[425px] md:max-w-2xl overflow-y-auto max-h-[80vh]">
+        <DialogHeader className="pb-4"> {/* Added pb-4 for spacing */}
           <DialogTitle className="text-2xl font-bold text-gray-900">{event.nome}</DialogTitle>
           <DialogDescription className="text-gray-700">
             {event.descricao}
           </DialogDescription>
         </DialogHeader>
-        <div className="grid gap-4 py-4 text-gray-800">
+        <div className="grid gap-3 py-2 text-gray-800 text-sm"> {/* Adjusted gap and text size */}
           <p><strong>Envolvidos:</strong> {event.envolvidos}</p>
           <p><strong>Governo:</strong> {event.governo}</p>
           <p><strong>Consequências:</strong> {event.consequencias}</p>
           <p><strong>Ano:</strong> {event.yearLabel}</p>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end pt-4"> {/* Added pt-4 for spacing */}
           <Button asChild>
             <a href={chatGptQuery} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
               <MessageCircle className="h-4 w-4" /> Perguntar ao ChatGPT
