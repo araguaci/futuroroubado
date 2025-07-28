@@ -876,18 +876,7 @@ const rawJsonContent = `{
     {
       "nome": "Escândalo da Venda da Companhia Vale do Rio Doce",
       "governo": "Governo Fernando Henrique (1995-2003)",
-      "descricao":<think>Deciding which files are relevant...
-
-{
-  "complexity": "high",
-  "relevantFiles": [
-    "src/components/Timeline.tsx",
-    "src/pages/Index.tsx",
-    "src/lib/utils.ts",
-    "src/globals.css",
-    "tailwind.config.ts"
-  ]
-}</think><dyad-codebase-context files="src/components/Timeline.tsx,src/pages/Index.tsx,src/lib/utils.ts,src/globals.css,tailwind.config.ts">Complexity: high</dyad-codebase-context> "Privatização subvalorizada.",
+      "descricao": "Privatização subvalorizada.",
       "envolvidos": "Vale, governo.",
       "consequencias": "",
       "ano": "1997"
@@ -2034,8 +2023,7 @@ const processScandalsData = (): ScandalEvent[] => {
 
     // Processar data1
     for (const key in data1) {
-      const yearStr = key.split('-')[0].replace('s', '0');
-      const year = parseInt(yearStr, 10);
+      const year = parseInt(key);
       if (isNaN(year)) continue;
 
       data1[key].forEach((event: any) => {
@@ -2043,8 +2031,8 @@ const processScandalsData = (): ScandalEvent[] => {
           nome: event.nome,
           descricao: event.descricao,
           envolvidos: event.envolvidos,
-          governo: event.governo || 'Não especificado', // Adicionar fallback para 'governo'
-          consequencias: event.consequencias || '', // Adicionar fallback para 'consequencias'
+          governo: event.governo || 'Não especificado',
+          consequencias: event.consequencias || '',
           year: year,
           yearLabel: key,
         });
@@ -2053,17 +2041,16 @@ const processScandalsData = (): ScandalEvent[] => {
 
     // Processar data2
     for (const key in data2) {
-      const yearStr = key.split('-')[0].replace('s', '0');
-      const year = parseInt(yearStr, 10);
+      const year = parseInt(key);
       if (isNaN(year)) continue;
 
       data2[key].forEach((event: any) => {
         allEvents.push({
-          nome: event.titulo, // Usar 'titulo' para 'nome'
+          nome: event.titulo,
           descricao: event.descricao,
           envolvidos: event.envolvidos,
-          governo: event.governo || 'Não especificado', // Adicionar fallback para 'governo'
-          consequencias: event.consequencias || '', // Adicionar fallback para 'consequencias'
+          governo: event.governo || 'Não especificado',
+          consequencias: event.consequencias || '',
           year: year,
           yearLabel: key,
         });
