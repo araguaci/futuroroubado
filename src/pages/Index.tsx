@@ -2021,31 +2021,26 @@ const processScandalsData = (): ScandalEvent[] => {
     
     const allEvents: ScandalEvent[] = [];
 
+    // Processar data1
     for (const key in data1) {
       const yearStr = key.split('-')[0].replace('s', '0');
       const year = parseInt(yearStr, 10);
       if (isNaN(year)) continue;
 
       data1[key].forEach((event: any) => {
-        all<think>Deciding which files are relevant...
-
-{
-  "complexity": "high",
-  "relevantFiles": [
-    "src/components/Timeline.tsx",
-    "src/pages/Index.tsx",
-    "src/components/ui/button.tsx",
-    "src/globals.css",
-    "tailwind.config.ts"
-  ]
-}</think><dyad-codebase-context files="src/components/Timeline.tsx,src/pages/Index.tsx,src/components/ui/button.tsx,src/globals.css,tailwind.config.ts">Complexity: high</dyad-codebase-context>Events.push({
-          ...event,
+        allEvents.push({
+          nome: event.nome,
+          descricao: event.descricao,
+          envolvidos: event.envolvidos,
+          governo: event.governo || 'Não especificado', // Adicionar fallback para 'governo'
+          consequencias: event.consequencias || '', // Adicionar fallback para 'consequencias'
           year: year,
           yearLabel: key,
         });
       });
     }
 
+    // Processar data2
     for (const key in data2) {
       const yearStr = key.split('-')[0].replace('s', '0');
       const year = parseInt(yearStr, 10);
@@ -2053,14 +2048,18 @@ const processScandalsData = (): ScandalEvent[] => {
 
       data2[key].forEach((event: any) => {
         allEvents.push({
-          nome: event.titulo,
-          ...event,
+          nome: event.titulo, // Usar 'titulo' para 'nome'
+          descricao: event.descricao,
+          envolvidos: event.envolvidos,
+          governo: event.governo || 'Não especificado', // Adicionar fallback para 'governo'
+          consequencias: event.consequencias || '', // Adicionar fallback para 'consequencias'
           year: year,
           yearLabel: key,
         });
       });
     }
 
+    // Remover duplicatas baseadas no nome do evento
     const uniqueEvents = Array.from(new Map(allEvents.map(e => [e.nome, e])).values());
     
     return uniqueEvents.sort((a, b) => a.year - b.year);
