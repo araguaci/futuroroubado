@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScandalEvent } from '@/types';
 import { cn } from '@/lib/utils';
+import ReadMore from '@/components/ReadMore'; // Importar o novo componente
 
 interface TimelineEventCardProps {
   event: ScandalEvent;
@@ -28,7 +29,7 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-gray-700 text-sm md:text-base mb-2">{event.descricao}</p>
+        <ReadMore text={event.descricao} maxLength={150} />
         {event.envolvidos && (
           <p className="text-gray-800 text-sm md:text-base font-medium mb-1">
             <span className="font-semibold">Envolvidos:</span> {event.envolvidos}
@@ -36,7 +37,7 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
         )}
         {event.consequencias && (
           <p className="text-gray-800 text-sm md:text-base font-medium">
-            <span className="font-semibold">Consequências:</span> {event.consequencias}
+            <span className="font-semibold">Consequências:</span> <ReadMore text={event.consequencias} maxLength={100} />
           </p>
         )}
       </CardContent>
