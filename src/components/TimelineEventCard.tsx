@@ -19,7 +19,8 @@ interface TimelineEventCardProps {
 }
 
 const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, isMobile }) => {
-  const chatGptQuery = `https://chat.openai.com/?q=Me%20conte%20mais%20sobre%20o%20escândalo%20${encodeURIComponent(event.nome)}`;
+  // Atualiza a query para incluir o nome e a descrição do escândalo
+  const chatGptQuery = `https://chat.openai.com/?q=Me%20conte%20mais%20sobre%20o%20escândalo%20${encodeURIComponent(event.nome)}:%20${encodeURIComponent(event.descricao)}`;
 
   // Determina as classes de estilo do cartão com base em isMobile e isLeft
   const cardClasses = cn(
