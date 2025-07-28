@@ -135,7 +135,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
             const isLeft = index % 2 === 0; 
 
             return (
-              <div key={`${event.nome}-${index}`} className="relative">
+              <div key={`${event.nome}-${index}`} className="relative mb-8"> {/* Moved mb-8 here */}
                 {showYear && (
                   <div className="relative h-24 flex items-center justify-center" style={{ zIndex: 2 }}> {/* Added h-24 and flex for centering */}
                     {/* Year display: Aligned with line on mobile, centered on desktop */}
@@ -154,7 +154,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                 )}
                 
                 <div className={cn(
-                  "relative mb-8 flex items-center w-full",
+                  "relative flex items-center w-full", // Removed mb-8 from here
                   // On desktop, alternate sides. On mobile, always left-aligned (no flex-row-reverse)
                   // flex-row-reverse is applied when the card should be on the left side (isLeft)
                   { "flex-row-reverse": !isMobile && isLeft }
