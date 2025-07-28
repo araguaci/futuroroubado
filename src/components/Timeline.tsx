@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input'; // Importar o componente Input
 import TimelineEventCard from './TimelineEventCard';
 import { ScandalEvent } from '@/types';
 
@@ -9,6 +10,7 @@ interface TimelineProps {
 
 const Timeline: React.FC<TimelineProps> = ({ events }) => {
   const [activeFilter, setActiveFilter] = useState<string>('Todos');
+  const [searchTerm, setSearchTerm] = useState<string>(''); // Novo estado para o termo de busca
 
   const filters = useMemo(() => {
     const governmentCounts: { [key: string]: number } = {};
@@ -24,11 +26,24 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
   }, [events]);
 
   const filteredEvents = useMemo(() => {
-    if (activeFilter === 'Todos') {
-      return events;
+    let currentEvents = events;
+
+    // Aplicar filtro por governo
+    if (activeFilter !== 'Todos') {
+      currentEvents = currentEvents.filter(event => event.governo === activeFilter);
     }
-    return events.filter(event => event.governo === activeFilter);
-  }, [events, activeFilter]);
+
+    // Aplicar filtro por termo de busca
+    if (searchTerm) {
+      const lowerCaseSearchTerm = searchTerm.toLowerCase();
+      currentEvents = currentEvents.filter(event =>
+        event.nome.toLowerCase().includes(lowerCaseSearchTerm) ||
+        event.descricao.toLowerCase().includes(lowerCaseSearchTerm)
+      );
+    }
+
+    return currentEvents;
+  }, [events, activeFilter, searchTerm]); // Adicionar searchTerm como dependência
 
   let lastYear: number | null = null;
 
@@ -36,17 +51,33 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
     <div className="w-full max-w-6xl mx-auto p-4 sm:p-8 font-sans">
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">Linha do Tempo de Escândalos Políticos</h1>
       
-      <div className="flex flex-wrap justify-center gap-2 mb-12">
+      <div className="flex flex-wrap justify-center gap-2 mb-4">
         {filters.map(filter => (
           <Button
             key={filter}
             variant={activeFilter === filter ? 'default' : 'outline'}
-            onClick={() => setActiveFilter(filter)}
+            onClick={() => {
+              setActiveFilter(filter);
+              setSearchTerm(''); // Limpar busca ao mudar filtro de governo
+            }}
             className="text-xs sm:text-sm"
           >
             {filter}
           </Button>
         ))}
+      </div>
+
+      <div className="mb-12 flex justify-center">
+        <Input
+          type="text"
+          placeholder="Buscar escândalo por nome ou descrição..."
+          value={searchTerm}
+          onChange={(e) => {
+            setSearchTerm(e.target.value);
+            setActiveFilter('Todos'); // Limpar filtro de governo ao buscar
+          }}
+          className="w-full max-w-md"
+        />
       </div>
 
       <div className="relative">
