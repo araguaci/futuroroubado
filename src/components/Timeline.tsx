@@ -1,10 +1,11 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import TimelineEventCard from './TimelineEventCard';
 import { ScandalEvent } from '@/types';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { cn } from '@/lib/utils';
+import { ArrowUp } from 'lucide-react'; // Importar o ícone de seta para cima
 
 interface TimelineProps {
   events: ScandalEvent[];
@@ -13,6 +14,7 @@ interface TimelineProps {
 const Timeline: React.FC<TimelineProps> = ({ events }) => {
   const [activeFilter, setActiveFilter] = useState<string>('Todos');
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const [showScrollToTop, setShowScrollToTop] = useState<boolean>(false);
   const isMobile = useIsMobile();
 
   const filters = useMemo(() => {
@@ -50,6 +52,28 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
     setActiveFilter('Todos');
     setSearchTerm('');
   };
+
+  const handleScroll = () => {
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+      setShowScrollToTop(true);
+    } else {
+      setShowScrollToTop(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Smooth scroll animation
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   let lastYear: number | null = null;
 
@@ -149,6 +173,17 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
           })
         )}
       </div>
+
+      {showScrollToTop && (
+        <Button
+          onClick={scrollToTop}
+          className="fixed bottom-4 right-4 p-3 rounded-full shadow-lg bg-gray-800 text-white hover:bg-gray-700 transition-all duration-300"
+          size="icon"
+        >
+          <ArrowUp className="h-5 w-5" />
+          <span className="sr-only">Voltar ao Topo</span>
+        </Button>
+      )}
     </div>
   );
 };
