@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import TimelineEventCard from './TimelineEventCard';
 import { ScandalEvent } from '@/types';
+import { useIsMobile } from '@/hooks/use-mobile'; // Import useIsMobile
+import { cn } from '@/lib/utils'; // Import cn for conditional classes
 
 interface TimelineProps {
   events: ScandalEvent[];
@@ -11,6 +13,7 @@ interface TimelineProps {
 const Timeline: React.FC<TimelineProps> = ({ events }) => {
   const [activeFilter, setActiveFilter] = useState<string>('Todos');
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const isMobile = useIsMobile(); // Detect if on mobile
 
   const filters = useMemo(() => {
     const governmentCounts: { [key: string]: number } = {};
@@ -92,7 +95,8 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
           filteredEvents.map((event, index) => {
             const showYear = event.year !== lastYear;
             lastYear = event.year;
-            const isLeft = index % 2 === 0;
+            const isLeft = index % 2 === 0; // Determines side for desktop layout
+            const cardIsLeft = isMobile ? false : isLeft; // Controls card background color
 
             return (
               <div key={`${event.nome}-${index}`} className="relative">
@@ -106,13 +110,24 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                   </div>
                 )}
                 
-                <div className={`relative mb-8 flex items-center w-full ${isLeft ? 'flex-row-reverse' : ''}`}>
-                  <div className="hidden md:block w-5/12"></div> {/* Spacer */}
+                <div className={cn(
+                  "relative mb-8 flex items-center w-full",
+                  { "flex-row-reverse": !isMobile && isLeft } // Apply flex-row-reverse only on desktop if isLeft
+                )}>
+                  {/* Spacer for desktop layout */}
+                  <div className={cn("hidden md:block", { "w-5/12": !isMobile })}></div>
+                  
+                  {/* Central dot */}
                   <div className="z-10 absolute left-1/2 transform -translate-x-1/2 md:relative">
                     <div className="w-4 h-4 bg-gray-800 border-2 border-white rounded-full shadow-sm"></div>
                   </div>
-                  <div className="w-full md:w-5/12 px-2 md:px-0">
-                    <TimelineEventCard event={event} isLeft={isLeft} />
+                  
+                  {/* Event card container */}
+                  <div className={cn(
+                    "w-full px-2 md:px-0",
+                    { "md:w-5/12": !isMobile } // Take 5/12 width on desktop
+                  )}>
+                    <TimelineEventCard event={event} isLeft={cardIsLeft} />
                   </div>
                 </div>
               </div>
