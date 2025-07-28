@@ -876,7 +876,18 @@ const rawJsonContent = `{
     {
       "nome": "Escândalo da Venda da Companhia Vale do Rio Doce",
       "governo": "Governo Fernando Henrique (1995-2003)",
-      "descricao": "Privatização subvalorizada.",
+      "descricao":<think>Deciding which files are relevant...
+
+{
+  "complexity": "high",
+  "relevantFiles": [
+    "src/components/Timeline.tsx",
+    "src/pages/Index.tsx",
+    "src/lib/utils.ts",
+    "src/globals.css",
+    "tailwind.config.ts"
+  ]
+}</think><dyad-codebase-context files="src/components/Timeline.tsx,src/pages/Index.tsx,src/lib/utils.ts,src/globals.css,tailwind.config.ts">Complexity: high</dyad-codebase-context> "Privatização subvalorizada.",
       "envolvidos": "Vale, governo.",
       "consequencias": "",
       "ano": "1997"
