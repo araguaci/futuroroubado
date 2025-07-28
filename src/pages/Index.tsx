@@ -1,5 +1,6 @@
 import Timeline from '@/components/Timeline';
 import React from 'react';
+import { ScandalEvent } from '@/types';
 
 const rawJsonContent = `{
   "1990s": [
@@ -2003,16 +2004,6 @@ const secondJsonPart = `{
   ]
 }
 `;
-
-interface ScandalEvent {
-  nome: string;
-  descricao: string;
-  envolvidos: string;
-  governo: string;
-  consequencias: string;
-  year: number;
-  yearLabel: string;
-}
 
 const processScandalsData = (): ScandalEvent[] => {
   try {

@@ -1,16 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Button } from '@/components/ui/button';
-
-// Define o tipo para um único evento
-interface ScandalEvent {
-  nome: string;
-  descricao: string;
-  envolvidos: string;
-  governo: string;
-  consequencias: string;
-  year: number;
-  yearLabel: string;
-}
+import TimelineEventCard from './TimelineEventCard';
+import { ScandalEvent } from '@/types';
 
 interface TimelineProps {
   events: ScandalEvent[];
@@ -66,7 +57,6 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
           const showYear = event.year !== lastYear;
           lastYear = event.year;
           const isLeft = index % 2 === 0;
-          const chatGptQuery = `https://chat.openai.com/?q=Me%20conte%20mais%20sobre%20o%20escândalo%20${encodeURIComponent(event.nome)}`;
 
           return (
             <div key={`${event.nome}-${index}`}>
@@ -86,13 +76,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                   <div className="w-4 h-4 bg-white border-2 border-gray-500 rounded-full"></div>
                 </div>
                 <div className="w-full md:w-5/12">
-                  <a href={chatGptQuery} target="_blank" rel="noopener noreferrer" className="block transition-transform transform hover:scale-105">
-                    <div className={`p-4 rounded-lg shadow-lg ${isLeft ? 'bg-blue-100 hover:bg-blue-200' : 'bg-green-100 hover:bg-green-200'}`}>
-                      <h3 className="font-bold text-base md:text-lg mb-1 text-gray-900">{event.nome}</h3>
-                      <p className="text-sm text-gray-700 mb-2">{event.descricao}</p>
-                      <p className="text-xs text-gray-500"><strong>Data:</strong> {event.yearLabel}</p>
-                    </div>
-                  </a>
+                  <TimelineEventCard event={event} isLeft={isLeft} />
                 </div>
               </div>
             </div>
