@@ -154,8 +154,8 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   <Skeleton className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 w-16 h-16 rounded-full" />
                   <div className={cn(
                     "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-24",
-                    { "right-[calc(50%+32px)]": i % 2 === 0 }, // Adjusted for left side (isLeft)
-                    { "left-[calc(50%+32px)]": i % 2 !== 0 } // Adjusted for right side (!isLeft)
+                    { "left-[calc(50%-32px)]": i % 2 === 0 }, // Adjusted left position for left-aligned card
+                    { "left-[calc(50%+8px)]": i % 2 !== 0 }  // Adjusted left position for right-aligned card
                   )}></div>
                 </div>
                 
@@ -175,8 +175,8 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                     "w-full px-2 md:px-0",
                     { "md:w-5/12": !isMobile },
                     { "ml-12": isMobile },
-                    { "md:pr-8": !isMobile && i % 2 === 0 }, // Add padding for left-aligned skeleton card
-                    { "md:pl-8": !isMobile && i % 2 !== 0 }  // Add padding for right-aligned skeleton card
+                    { "md:mr-8": !isMobile && i % 2 === 0 }, // Add margin-right for left-aligned skeleton card
+                    { "md:ml-8": !isMobile && i % 2 !== 0 }  // Add margin-left for right-aligned skeleton card
                   )}>
                     <Skeleton className="h-32 w-full rounded-lg" />
                   </div>
@@ -205,8 +205,8 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                     </div>
                     <div className={cn(
                       "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-24",
-                      { "right-[calc(50%+32px)]": isLeft }, // Line extends left from year circle's left edge
-                      { "left-[calc(50%+32px)]": !isLeft } // Line extends right from year circle's right edge
+                      { "left-[calc(50%-32px)]": isLeft }, // Adjusted left position for left-aligned card
+                      { "left-[calc(50%+8px)]": !isLeft }  // Adjusted left position for right-aligned card
                     )}></div>
                   </div>
                 )}
@@ -225,8 +225,8 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                     "w-full px-2 md:px-0",
                     { "md:w-5/12": !isMobile },
                     { "ml-12": isMobile },
-                    { "md:pr-8": !isMobile && isLeft }, // Add padding for left-aligned card
-                    { "md:pl-8": !isMobile && !isLeft }  // Add padding for right-aligned card
+                    { "md:mr-8": !isMobile && isLeft }, // Add margin-right for left-aligned card
+                    { "md:ml-8": !isMobile && !isLeft }  // Add margin-left for right-aligned card
                   )}>
                     <TimelineEventCard event={event} isLeft={isLeft} isMobile={isMobile} />
                   </div>
