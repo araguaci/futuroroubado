@@ -1,0 +1,779 @@
+{
+  "2003": [
+    {
+      "titulo": "Caso Pinheiro Landim",
+      "descricao": "Acusações de propina.",
+      "envolvidos": "Pinheiro Landim."
+    },
+    {
+      "titulo": "Escândalo dos Grampos Contra Políticos da Bahia",
+      "descricao": "Gravações ilegais.",
+      "envolvidos": "ABIN, políticos baianos."
+    },
+    {
+      "titulo": "Escândalo do Proprinoduto",
+      "descricao": "Desvios em obras no RJ.",
+      "envolvidos": "Rodrigo Silveirinha."
+    },
+    {
+      "titulo": "CPI do Banestado",
+      "descricao": "Evasão fiscal.",
+      "envolvidos": "Bancos."
+    },
+    {
+      "titulo": "Escândalo da Suposta Ligação do PT com o MST",
+      "descricao": "Financiamento ilegal.",
+      "envolvidos": "PT, MST."
+    },
+    {
+      "titulo": "Escândalo da Suposta Ligação do PT com a FARC",
+      "descricao": "Apoio a guerrilha.",
+      "envolvidos": "PT."
+    },
+    {
+      "titulo": "Privatização das Estatais no Primeiro Ano do Governo Lula",
+      "descricao": "Continuação de privatizações.",
+      "envolvidos": "Governo Lula."
+    },
+    {
+      "titulo": "Escândalo dos Gastos Públicos dos Ministros",
+      "descricao": "Gastos excessivos.",
+      "envolvidos": "Ministros."
+    },
+    {
+      "titulo": "Irregularidades do Fome Zero",
+      "descricao": "Desvios em programa social.",
+      "envolvidos": "Gestores."
+    },
+    {
+      "titulo": "Escândalo do DNIT",
+      "descricao": "Corrupção em obras.",
+      "envolvidos": "Anderson Adauto, Sérgio Pimentel."
+    },
+    {
+      "titulo": "Licitação Para a Compra de Gêneros Básicos",
+      "descricao": "Superfaturamento.",
+      "envolvidos": "Governo federal."
+    },
+    {
+      "titulo": "Operação Anaconda",
+      "descricao": "Fraudes no Judiciário.",
+      "envolvidos": "Juízes."
+    },
+    {
+      "titulo": "Escândalo dos Gafanhotos",
+      "descricao": "Desvios agrícolas.",
+      "envolvidos": "Funcionários."
+    },
+    {
+      "titulo": "Caso José Eduardo Dutra",
+      "descricao": "Irregularidades na Petrobras.",
+      "envolvidos": "José Eduardo Dutra."
+    },
+    {
+      "titulo": "Várias Aberturas de Licitações da Presidência Para a Compra de Artigos de Luxo",
+      "descricao": "Gastos luxuosos.",
+      "envolvidos": "Presidência."
+    },
+    {
+      "titulo": "Lei de Responsabilidade Fiscal",
+      "descricao": "Recuos no cumprimento.",
+      "envolvidos": "Governo federal."
+    },
+    {
+      "titulo": "Abuso de Medidas Provisórias no Governo Lula entre 2003 e 2004",
+      "descricao": "Excesso de MPs.",
+      "envolvidos": "Governo Lula."
+    }
+  ],
+  "2004": [
+    {
+      "titulo": "Escândalo do Ministério do Trabalho",
+      "descricao": "Irregularidades em contratos.",
+      "envolvidos": "Ministério."
+    },
+    {
+      "titulo": "Caso Agnelo Queiroz",
+      "descricao": "Diárias indevidas.",
+      "envolvidos": "Agnelo Queiroz."
+    },
+    {
+      "titulo": "Escândalo do Ministério dos Esportes",
+      "descricao": "Uso para festa pessoal.",
+      "envolvidos": "Agnelo Queiroz."
+    },
+    {
+      "titulo": "Escândalo dos Frangos",
+      "descricao": "Fraudes em Roraima.",
+      "envolvidos": "Exportadores."
+    },
+    {
+      "titulo": "Escândalo da Norospar",
+      "descricao": "Irregularidades em saúde no PR.",
+      "envolvidos": "Norospar."
+    },
+    {
+      "titulo": "Escândalo dos Bingos",
+      "descricao": "Extorsão para campanhas.",
+      "envolvidos": "Waldomiro Diniz."
+    },
+    {
+      "titulo": "Escândalo da ONG Ágora",
+      "descricao": "Desvios em convênios.",
+      "envolvidos": "ONG Ágora."
+    },
+    {
+      "titulo": "Escândalo dos Copos",
+      "descricao": "Licitação para copos de luxo.",
+      "envolvidos": "Governo federal."
+    },
+    {
+      "titulo": "Caso Henrique Meirelles",
+      "descricao": "Irregularidades financeiras.",
+      "envolvidos": "Henrique Meirelles."
+    },
+    {
+      "titulo": "Caso Luiz Augusto Candiota",
+      "descricao": "Movimentações suspeitas.",
+      "envolvidos": "Luiz Augusto Candiota."
+    },
+    {
+      "titulo": "Caso Cássio Casseb",
+      "descricao": "Irregularidades no BB.",
+      "envolvidos": "Cássio Casseb."
+    },
+    {
+      "titulo": "Caso Kroll",
+      "descricao": "Espionagem.",
+      "envolvidos": "Telecom Italia."
+    },
+    {
+      "titulo": "Conselho Federal de Jornalismo",
+      "descricao": "Proposta controversa.",
+      "envolvidos": "Governo Lula."
+    },
+    {
+      "titulo": "Escândalo dos Vampiros",
+      "descricao": "Fraudes em saúde.",
+      "envolvidos": "Ministérios."
+    },
+    {
+      "titulo": "Escândalo das Fotos de Herzog",
+      "descricao": "Uso político de imagens.",
+      "envolvidos": "Governo."
+    },
+    {
+      "titulo": "Uso dos Assessores em Campanha Eleitoral de 2004",
+      "descricao": "Abuso de estrutura.",
+      "envolvidos": "Assessores."
+    },
+    {
+      "titulo": "Irregularidades na Bolsa-Escola",
+      "descricao": "Desvios no programa.",
+      "envolvidos": "Gestores."
+    }
+  ],
+  "2005": [
+    {
+      "titulo": "Expulsão dos Políticos do PT",
+      "descricao": "Expulsões por corrupção.",
+      "envolvidos": "PT."
+    },
+    {
+      "titulo": "Escândalo do PTB",
+      "descricao": "Oferta de cargos por apoio.",
+      "envolvidos": "PTB."
+    },
+    {
+      "titulo": "Caso Antônio Celso Cipriani",
+      "descricao": "Acusações vagas.",
+      "envolvidos": "Antônio Celso Cipriani."
+    },
+    {
+      "titulo": "Caso Flamarion Portela",
+      "descricao": "Corrupção em RR.",
+      "envolvidos": "Flamarion Portela."
+    },
+    {
+      "titulo": "Irregularidades na Bolsa-Família",
+      "descricao": "Fraudes no programa.",
+      "envolvidos": "Beneficiários falsos."
+    },
+    {
+      "titulo": "Irregularidades do Programa Restaurante Popular",
+      "descricao": "Favorecimento a prefeituras PT.",
+      "envolvidos": "Programa."
+    },
+    {
+      "titulo": "Escândalo dos Correios",
+      "descricao": "Propina filmada.",
+      "envolvidos": "Maurício Marinho."
+    },
+    {
+      "titulo": "Escândalo do IRB",
+      "descricao": "Fraudes em resseguros.",
+      "envolvidos": "IRB."
+    },
+    {
+      "titulo": "Escândalo da Novadata",
+      "descricao": "Irregularidades em tecnologia.",
+      "envolvidos": "Novadata."
+    },
+    {
+      "titulo": "Escândalo da Usina de Itaipu",
+      "descricao": "Desvios.",
+      "envolvidos": "Itaipu."
+    },
+    {
+      "titulo": "Escândalo das Furnas",
+      "descricao": "Propinas.",
+      "envolvidos": "Furnas."
+    },
+    {
+      "titulo": "Escândalo do Mensalão",
+      "descricao": "Compra de votos.",
+      "envolvidos": "PT, José Dirceu."
+    },
+    {
+      "titulo": "Escândalo do Leão & Leão",
+      "descricao": "Máfia do lixo.",
+      "envolvidos": "Prefeitura de Ribeirão Preto."
+    },
+    {
+      "titulo": "Escândalo da Secom",
+      "descricao": "Irregularidades em publicidade.",
+      "envolvidos": "Secom."
+    },
+    {
+      "titulo": "Esquema de Corrupção no Diretório Nacional do PT",
+      "descricao": "Parte do mensalão.",
+      "envolvidos": "PT."
+    },
+    {
+      "titulo": "Escândalo do Brasil Telecom",
+      "descricao": "Espionagem.",
+      "envolvidos": "Brasil Telecom."
+    },
+    {
+      "titulo": "Escândalo da CPEM",
+      "descricao": "Consultoria suspeita.",
+      "envolvidos": "CPEM."
+    },
+    {
+      "titulo": "Escândalo da SEBRAE",
+      "descricao": "Dívida quitada indevidamente.",
+      "envolvidos": "Paulo Okamotto."
+    },
+    {
+      "titulo": "Escândalo dos Dólares na Cueca",
+      "descricao": "Propina apreendida.",
+      "envolvidos": "PT/CE."
+    },
+    {
+      "titulo": "Escândalo do Banco Santos",
+      "descricao": "Falência fraudulenta.",
+      "envolvidos": "Banco Santos."
+    },
+    {
+      "titulo": "Escândalo da Interbrazil",
+      "descricao": "Acusações vagas.",
+      "envolvidos": "Interbrazil."
+    },
+    {
+      "titulo": "Caso Toninho da Barcelona",
+      "descricao": "Assassinato ligado a narcotráfico.",
+      "envolvidos": "Toninho da Barcelona."
+    },
+    {
+      "titulo": "Escândalo do Banco BMG",
+      "descricao": "Empréstimos fraudulentos.",
+      "envolvidos": "BMG."
+    },
+    {
+      "titulo": "Escândalo dos Fundos de Pensão",
+      "descricao": "Desvios.",
+      "envolvidos": "Fundos de pensão."
+    },
+    {
+      "titulo": "Escândalo do Foro de São Paulo",
+      "descricao": "Alegações ideológicas.",
+      "envolvidos": "PT."
+    },
+    {
+      "titulo": "Escândalo do Mensalinho",
+      "descricao": "Esquemas locais.",
+      "envolvidos": "Municipais."
+    },
+    {
+      "titulo": "Caixa com dólares da FARC na CPI dos Correios",
+      "descricao": "Financiamento para eleição de Lula.",
+      "envolvidos": "Palocci, FARC."
+    }
+  ],
+  "2006": [
+    {
+      "titulo": "Escândalo da Gamecorp-Telemar",
+      "descricao": "Contratos suspeitos.",
+      "envolvidos": "Fábio Luís Lula da Silva."
+    },
+    {
+      "titulo": "Caso dos Dólares de Cuba",
+      "descricao": "Doações alegadas.",
+      "envolvidos": "PT."
+    },
+    {
+      "titulo": "Doação de Roupas da Lu Alckmin",
+      "descricao": "Doações pessoais controversas.",
+      "envolvidos": "Lu Alckmin."
+    },
+    {
+      "titulo": "Doação de Terninhos de Marísa da Silva",
+      "descricao": "Gastos pessoais.",
+      "envolvidos": "Marísa Letícia."
+    },
+    {
+      "titulo": "Escândalo da Quebra do Sigilo Bancário do Caseiro Francenildo",
+      "descricao": "Violação de sigilo.",
+      "envolvidos": "Antonio Palocci."
+    },
+    {
+      "titulo": "Escândalo das Cartilhas do PT",
+      "descricao": "Propaganda irregular.",
+      "envolvidos": "PT."
+    },
+    {
+      "titulo": "Esquema do Plano Safra Legal",
+      "descricao": "Fraudes agrícolas.",
+      "envolvidos": "Funcionários."
+    },
+    {
+      "titulo": "Escândalo das Vendas de Madeira da Amazônia",
+      "descricao": "Exploração ilegal.",
+      "envolvidos": "MMA."
+    },
+    {
+      "titulo": "Crise da Varig",
+      "descricao": "Falência.",
+      "envolvidos": "Varig."
+    },
+    {
+      "titulo": "Escândalo das Sanguessugas",
+      "descricao": "Fraudes em ambulâncias.",
+      "envolvidos": "Parlamentares."
+    },
+    {
+      "titulo": "Escândalo dos Gastos de Combustíveis dos Deputados",
+      "descricao": "Abusos em verbas.",
+      "envolvidos": "Deputados."
+    },
+    {
+      "titulo": "CPI da Imigração Ilegal",
+      "descricao": "Tráfico humano.",
+      "envolvidos": "Imigração."
+    },
+    {
+      "titulo": "CPI do Tráfico de Armas",
+      "descricao": "Armas ilegais.",
+      "envolvidos": "Traficantes."
+    },
+    {
+      "titulo": "Escândalo da Suposta Ligação do PT com o PCC",
+      "descricao": "Alegações não comprovadas.",
+      "envolvidos": "PT, PCC."
+    },
+    {
+      "titulo": "Escândalo da Suposta Ligação do PT com o MLST",
+      "descricao": "Alegações não comprovadas.",
+      "envolvidos": "PT, MLST."
+    },
+    {
+      "titulo": "Operação Dominó",
+      "descricao": "Fraudes em RO.",
+      "envolvidos": "Locais."
+    },
+    {
+      "titulo": "Escândalo do Vazamento de Informações da Operação Mão-de-Obra",
+      "descricao": "Vazamentos.",
+      "envolvidos": "PF."
+    },
+    {
+      "titulo": "Escândalo dos Funcionários Federais Empregados que não Trabalhavam",
+      "descricao": "Funcionários fantasmas.",
+      "envolvidos": "Federais."
+    },
+    {
+      "titulo": "Mensalinho nas Prefeituras do Estado de São Paulo",
+      "descricao": "Esquemas locais.",
+      "envolvidos": "Prefeituras SP."
+    },
+    {
+      "titulo": "Escândalo dos Grampos no TSE",
+      "descricao": "Espionagem eleitoral.",
+      "envolvidos": "TSE."
+    },
+    {
+      "titulo": "Escândalo do Dossiê",
+      "descricao": "Dossiê falso.",
+      "envolvidos": "PT."
+    },
+    {
+      "titulo": "ONG Unitrabalho",
+      "descricao": "Desvios.",
+      "envolvidos": "Unitrabalho."
+    },
+    {
+      "titulo": "Escândalo dos Fiscais do IBAMA do Rio de Janeiro",
+      "descricao": "Corrupção ambiental.",
+      "envolvidos": "Fiscais IBAMA."
+    },
+    {
+      "titulo": "Escândalo da Venda da Varig",
+      "descricao": "Privatização suspeita.",
+      "envolvidos": "Varig."
+    },
+    {
+      "titulo": "Caso Pinheiro Landim",
+      "descricao": "Propina.",
+      "envolvidos": "Pinheiro Landim."
+    }
+  ],
+  "2007": [
+    {
+      "titulo": "Operação Confraria",
+      "descricao": "Corrupção no PI.",
+      "envolvidos": "Políticos locais."
+    },
+    {
+      "titulo": "Operação Saúva",
+      "descricao": "Desvios em MS.",
+      "envolvidos": "Locais."
+    },
+    {
+      "titulo": "CPI das ONGs",
+      "descricao": "Investigação de ONGs.",
+      "envolvidos": "ONGs."
+    },
+    {
+      "titulo": "Operação Testamento",
+      "descricao": "Fraudes em testamentos.",
+      "envolvidos": "Cartórios."
+    },
+    {
+      "titulo": "CPI do Apagão Aéreo",
+      "descricao": "Crise aéreo.",
+      "envolvidos": "Setor aéreo."
+    },
+    {
+      "titulo": "Operação Hurricane",
+      "descricao": "Jogos ilegais.",
+      "envolvidos": "Juízes."
+    },
+    {
+      "titulo": "Operação Navalha",
+      "descricao": "Desvios em obras.",
+      "envolvidos": "Empresas."
+    },
+    {
+      "titulo": "Operação Xeque-Mate",
+      "descricao": "Fraudes em loterias.",
+      "envolvidos": "Loterias."
+    },
+    {
+      "titulo": "Operação Moeda Verde",
+      "descricao": "Corrupção ambiental em SC.",
+      "envolvidos": "Locais em SC."
+    },
+    {
+      "titulo": "Caso Renan Calheiros",
+      "descricao": "Acusações éticas.",
+      "envolvidos": "Renan Calheiros."
+    },
+    {
+      "titulo": "Operação Sétimo Céu",
+      "descricao": "Fraudes em aviação.",
+      "envolvidos": "Aviação."
+    },
+    {
+      "titulo": "Operação Hurricane II",
+      "descricao": "Continuação de jogos ilegais.",
+      "envolvidos": "Juízes."
+    },
+    {
+      "titulo": "Caso Joaquim Roriz",
+      "descricao": "Corrupção no DF.",
+      "envolvidos": "Joaquim Roriz."
+    },
+    {
+      "titulo": "Operação Hurricane III",
+      "descricao": "Mesma série.",
+      "envolvidos": "Juízes."
+    },
+    {
+      "titulo": "Escândalo do Corinthians",
+      "descricao": "Lavagem em futebol.",
+      "envolvidos": "MSI, Corinthians."
+    },
+    {
+      "titulo": "Crise no Setor Aéreo Brasileiro",
+      "descricao": "Caos em aeroportos.",
+      "envolvidos": "Setor aéreo."
+    },
+    {
+      "titulo": "CPI da Crise Aérea",
+      "descricao": "Investigação da crise aéreo.",
+      "envolvidos": "Congresso."
+    },
+    {
+      "titulo": "Caso Agnelo Queiroz",
+      "descricao": "Diárias indevidas do COB.",
+      "envolvidos": "Agnelo Queiroz."
+    },
+    {
+      "titulo": "Escândalo do Ministério dos Esportes",
+      "descricao": "Uso de estrutura para festa pessoal.",
+      "envolvidos": "Agnelo Queiroz."
+    }
+  ],
+  "2008": [
+    {
+      "titulo": "Escândalo de Cartões de Crédito Corporativos da Presidência",
+      "descricao": "Uso indevido.",
+      "envolvidos": "Presidência."
+    },
+    {
+      "titulo": "Escândalo dos Grampos na Abin",
+      "descricao": "Espionagem.",
+      "envolvidos": "ABIN."
+    },
+    {
+      "titulo": "Escândalo da Nossa Caixa",
+      "descricao": "Venda suspeita.",
+      "envolvidos": "Nossa Caixa."
+    },
+    {
+      "titulo": "Escândalo Daniel Dantas",
+      "descricao": "Fraudes financeiras.",
+      "envolvidos": "Daniel Dantas."
+    },
+    {
+      "titulo": "Operação Águas Profundas",
+      "descricao": "Caso Petrobras.",
+      "envolvidos": "Petrobras."
+    },
+    {
+      "titulo": "Escândalo dos Grampos",
+      "descricao": "Gravações ilegais pela ABIN.",
+      "envolvidos": "ABIN, autoridades."
+    },
+    {
+      "titulo": "Esposa de líder das FARC no Ministério da Pesca",
+      "descricao": "Emprego para familiar de guerrilheiro.",
+      "envolvidos": "Olivério Medina, Dilma Rousseff."
+    },
+    {
+      "titulo": "Mensagem em computador de Raúl Reyes",
+      "descricao": "Apoio da cúpula brasileira.",
+      "envolvidos": "Celso Amorim, FARC."
+    }
+  ],
+  "2009": [
+    {
+      "titulo": "Escândalo da Renascer em Cristo",
+      "descricao": "Fraudes em igreja.",
+      "envolvidos": "Líderes da Renascer."
+    }
+  ],
+  "2010": [
+    {
+      "titulo": "Erenice Guerra",
+      "descricao": "Tráfico de influência na Casa Civil.",
+      "envolvidos": "Erenice Guerra, familiares."
+    },
+    {
+      "titulo": "Antes da posse - Pedro Novais",
+      "descricao": "Uso de verba para motel.",
+      "envolvidos": "Pedro Novais."
+    },
+    {
+      "titulo": "PCC vai investir em terrorismo",
+      "descricao": "Alegações de expansão do PCC com FARC.",
+      "envolvidos": "PCC, FARC."
+    },
+    {
+      "titulo": "PCC atua com FARC e EPP",
+      "descricao": "Colaboração com guerrilheiros asilados.",
+      "envolvidos": "PCC, FARC, governo Lula."
+    },
+    {
+      "titulo": "Ataques em estados da oposição",
+      "descricao": "Ataques seletivos em SP, MG, SC.",
+      "envolvidos": "Organizações criminosas."
+    },
+    {
+      "titulo": "Mudanças na legislação prisional",
+      "descricao": "Redução da população carcerária.",
+      "envolvidos": "Governo federal."
+    }
+  ],
+  "2011": [
+    {
+      "titulo": "Operação Voucher",
+      "descricao": "Desvios no Turismo.",
+      "envolvidos": "Servidores do Ministério do Turismo."
+    },
+    {
+      "titulo": "Palocci é o primeiro",
+      "descricao": "Aumento patrimonial suspeito.",
+      "envolvidos": "Antonio Palocci."
+    },
+    {
+      "titulo": "Explode a crise nos Transportes",
+      "descricao": "Propinas e superfaturamento.",
+      "envolvidos": "Alfredo Nascimento, DNIT, Valec."
+    },
+    {
+      "titulo": "Escândalo na Agricultura",
+      "descricao": "Irregularidades na Conab.",
+      "envolvidos": "Wagner Rossi."
+    },
+    {
+      "titulo": "Agora no Ministério dos Esportes",
+      "descricao": "Desvios em programas.",
+      "envolvidos": "Orlando Silva."
+    },
+    {
+      "titulo": "Antonio Palocci",
+      "descricao": "Repetição, quebra de sigilo.",
+      "envolvidos": "Palocci."
+    },
+    {
+      "titulo": "Ideli Salvatti",
+      "descricao": "Irregularidades em lanchas.",
+      "envolvidos": "Ideli Salvatti, PT-SC."
+    },
+    {
+      "titulo": "Ministério do Trabalho",
+      "descricao": "Propina de ONGs.",
+      "envolvidos": "Carlos Lupi."
+    },
+    {
+      "titulo": "Escândalo do Ministério do Trabalho",
+      "descricao": "Irregularidades em contratos.",
+      "envolvidos": "Carlos Lupi."
+    }
+  ],
+  "2012": [
+    {
+      "titulo": "Em 2012 - Mário Negromonte",
+      "descricao": "Ligações com lobistas.",
+      "envolvidos": "Mário Negromonte."
+    },
+    {
+      "titulo": "Outro em 2012 - Rosemary Noronha",
+      "descricao": "Tráfico de influência.",
+      "envolvidos": "Rosemary Noronha."
+    },
+    {
+      "titulo": "Fernando Pimentel",
+      "descricao": "Tráfico de influência em consultoria.",
+      "envolvidos": "Fernando Pimentel."
+    },
+    {
+      "titulo": "Rosemary Novoa de Noronha e José Weber Holanda",
+      "descricao": "Propinas em agências reguladoras (Operação Porto Seguro).",
+      "envolvidos": "Rosemary Noronha, José Weber Holanda."
+    },
+    {
+      "titulo": "Tese de Toffoli no STF",
+      "descricao": "Punição apenas para crimes de sangue.",
+      "envolvidos": "Dias Toffoli."
+    },
+    {
+      "titulo": "Legalização de contratos do mensalão",
+      "descricao": "Nomeação de Ana Arraes no TCU.",
+      "envolvidos": "Lula, Ana Arraes."
+    },
+    {
+      "titulo": "Caso Rosemary",
+      "descricao": "Influência indevida.",
+      "envolvidos": "Rosemary Noronha."
+    }
+  ],
+  "2014": [
+    {
+      "titulo": "Escândalo do Petrolão",
+      "descricao": "Esquema de corrupção na Petrobras com desvios bilhões via propinas de empreiteiras.",
+      "envolvidos": "PT, empreiteiras como Odebrecht, políticos como Lula."
+    },
+    {
+      "titulo": "Escândalo na Copa do Mundo 2014",
+      "descricao": "Isenções fiscais à FIFA.",
+      "envolvidos": "Governo, FIFA."
+    }
+  ],
+  "2015": [
+    {
+      "titulo": "Caso Delcídio do Amaral",
+      "descricao": "Tentativa de obstruir Lava Jato.",
+      "envolvidos": "Delcídio Amaral, Cerveró, Lula, Dilma."
+    },
+    {
+      "titulo": "Pedaladas Fiscais",
+      "descricao": "Manobras contábeis ilegais.",
+      "envolvidos": "Dilma, equipe econômica."
+    },
+    {
+      "titulo": "Operação Zelotes",
+      "descricao": "Fraudes no CARF, envolvendo filho de Lula.",
+      "envolvidos": "Luís Cláudio Lula da Silva, conselheiros."
+    },
+    {
+      "titulo": "Escândalo da Eletronuclear",
+      "descricao": "Desvios em Angra 3, ligado à Lava Jato.",
+      "envolvidos": "Othon Luiz Pinheiro da Silva, empreiteiras."
+    },
+    {
+      "titulo": "Operação Águas Profundas (Caso Petrobras)",
+      "descricao": "Parte da Lava Jato.",
+      "envolvidos": "Petrobras."
+    }
+  ],
+  "2016": [
+    {
+      "titulo": "Pedaladas Fiscais",
+      "descricao": "Manobras contábeis ilegais.",
+      "envolvidos": "Dilma, equipe econômica."
+    },
+    {
+      "titulo": "Operação Zelotes",
+      "descricao": "Fraudes no CARF, envolvendo filho de Lula.",
+      "envolvidos": "Luís Cláudio Lula da Silva, conselheiros."
+    }
+  ],
+  "2001": [
+    {
+      "titulo": "Caso Toninho do PT",
+      "descricao": "Assassinato de prefeito.",
+      "envolvidos": "PT."
+    }
+  ],
+  "2002": [
+    {
+      "titulo": "Caso Celso Daniel",
+      "descricao": "Assassinato ligado a corrupção.",
+      "envolvidos": "PT local."
+    },
+    {
+      "titulo": "Escândalo do Propinoduto (Caso Rodrigo Silveirinha)",
+      "descricao": "Desvios em obras no RJ.",
+      "envolvidos": "Políticos locais."
+    }
+  ],
+  "2003-2010": [
+    {
+      "titulo": "Escândalo de Corrupção dos Ministros no Governo Lula",
+      "descricao": "Múltiplos casos.",
+      "envolvidos": "Ministros."
+    }
+  ]
+}
