@@ -153,9 +153,9 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                 <div className="relative h-24 flex items-center justify-center" style={{ zIndex: 2 }}>
                   <Skeleton className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 w-16 h-16 rounded-full" />
                   <div className={cn(
-                    "hidden md:block absolute top-1/2 -translate-y-1/2 h-0.5 bg-gray-400 w-24",
-                    { "left-[calc(50%-8rem)]": i % 2 === 0 },
-                    { "left-[calc(50%+2rem)]": i % 2 !== 0 }
+                    "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-24", // Changed h-0.5 to h-1, bg-gray-400 to bg-gray-500, w-24
+                    { "left-[calc(50%-32px)]": i % 2 === 0 }, // Adjusted left position
+                    { "left-[calc(50%+8px)]": i % 2 !== 0 } // Adjusted left position
                   )}></div>
                 </div>
                 
@@ -202,9 +202,9 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                       </span>
                     </div>
                     <div className={cn(
-                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-0.5 bg-gray-400 w-24",
-                      { "left-[calc(50%-8rem)]": isLeft },
-                      { "left-[calc(50%+2rem)]": !isLeft }
+                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-24", // Changed h-0.5 to h-1, bg-gray-400 to bg-gray-500, w-24
+                      { "left-[calc(50%-32px)]": isLeft }, // Adjusted left position
+                      { "left-[calc(50%+8px)]": !isLeft } // Adjusted left position
                     )}></div>
                   </div>
                 )}
