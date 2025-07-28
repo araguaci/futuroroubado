@@ -46,6 +46,11 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
     return currentEvents;
   }, [events, activeFilter, searchTerm]);
 
+  const handleClearFilters = () => {
+    setActiveFilter('Todos');
+    setSearchTerm('');
+  };
+
   let lastYear: number | null = null;
 
   return (
@@ -66,6 +71,15 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
             {filter}
           </Button>
         ))}
+        {(activeFilter !== 'Todos' || searchTerm) && (
+          <Button
+            variant="ghost"
+            onClick={handleClearFilters}
+            className="text-xs sm:text-sm text-gray-600 hover:text-gray-900"
+          >
+            Limpar Filtros
+          </Button>
+        )}
       </div>
 
       <div className="mb-12 flex justify-center px-4">
