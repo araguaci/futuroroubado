@@ -1,121 +1,5 @@
 {
-  "2025": [
-    {
-      "governo": "Governo Lula (2023-2026)",
-      "titulo": "Escândalo do INSS",
-      "descricao": "Fraudes em benefícios previdenciários, com desvios de bilhões de reais para associações e sindicatos suspeitos.",
-      "envolvidos": "Alessandro Stefanutto (ex-presidente do INSS), sindicato ligado ao irmão de Lula, Carlos Lupi (ministro da Previdência).",
-      "consequencias": "Demissão do presidente do INSS; investigações pela PF; impacto na imagem do governo Lula; queda no índice de percepção da corrupção."
-    },
-    {
-      "governo": "Governo Lula (2023-2026)",
-      "titulo": "Taxa das Blusinhas",
-      "descricao": "Confusão sobre taxação de importações de produtos baratos, como roupas de sites internacionais.",
-      "envolvidos": "Ministério da Fazenda, Receita Federal.",
-      "consequencias": "Recuos do governo em meio a críticas; erros de comunicação; debates sobre proteção ao varejo nacional."
-    }
-  ],
-  "2024": [
-    {
-      "governo": "Governo Lula (2023-2026)",
-      "titulo": "Escândalo das Joias (continuação)",
-      "descricao": "Venda ilegal de joias recebidas como presentes oficiais, envolvendo ex-presidente Bolsonaro, mas com implicações em auditorias federais.",
-      "envolvidos": "Família Bolsonaro, governo federal anterior.",
-      "consequencias": "Investigações continuadas; indiciamentos por peculato e lavagem de dinheiro; impacto residual no combate à corrupção."
-    }
-  ],
-  "2023": [
-    {
-      "governo": "Governo Lula (2023-2026)",
-      "titulo": "Escândalo do Pix e IOF",
-      "descricao": "Rumores e confusões sobre novas regras fiscais para Pix e IOF, levando a desinformação.",
-      "envolvidos": "Ministério da Fazenda, Banco Central.",
-      "consequencias": "Recuos e esclarecimentos do governo; críticas por falhas de comunicação; queda na aprovação."
-    },
-    {
-      "governo": "Governo Lula (2023-2026)",
-      "titulo": "Desmanche no Combate à Corrupção",
-      "descricao": "Relatórios apontando enfraquecimento de mecanismos anticorrupção herdados.",
-      "envolvidos": "Governo federal, CGU.",
-      "consequencias": "Queda no Índice de Percepção da Corrupção; críticas internacionais; ajustes em políticas."
-    }
-  ],
-  "2022": [
-    {
-      "governo": "Governo Bolsonaro (2019-2022)",
-      "titulo": "Tratoraço",
-      "descricao": "Superfaturamento na compra de tratores com emendas parlamentares.",
-      "envolvidos": "Ministério do Desenvolvimento Agrário, deputados.",
-      "consequencias": "Investigações pela PF e TCU; suspensão de contratos; impacto em emendas orçamentárias."
-    },
-    {
-      "governo": "Governo Bolsonaro (2019-2022)",
-      "titulo": "Escândalo das Joias Sauditas",
-      "descricao": "Recebimento e tentativa de venda ilegal de joias pela família Bolsonaro.",
-      "envolvidos": "Jair Bolsonaro, Michelle Bolsonaro, Mauro Cid.",
-      "consequencias": "Indiciamentos por peculato, lavagem de dinheiro; investigações pela PF; inelegibilidade de Bolsonaro."
-    }
-  ],
-  "2021": [
-    {
-      "governo": "Governo Bolsonaro (2019-2022)",
-      "titulo": "Covaxin",
-      "descricao": "Irregularidades na compra de vacinas indianas contra COVID-19, com suspeitas de superfaturamento.",
-      "envolvidos": "Ministério da Saúde, Ricardo Barros, Precisa Medicamentos.",
-      "consequencias": "CPI da COVID; cancelamento do contrato; investigações pela PF; demissões no ministério."
-    },
-    {
-      "governo": "Governo Bolsonaro (2019-2022)",
-      "titulo": "Rachadinhas",
-      "descricao": "Esquema de devolução de salários por assessores da família Bolsonaro.",
-      "envolvidos": "Flávio Bolsonaro, Fabrício Queiroz.",
-      "consequencias": "Processos judiciais; Queiroz preso e solto; impacto na família presidencial."
-    }
-  ],
-  "2020": [
-    {
-      "governo": "Governo Bolsonaro (2019-2022)",
-      "titulo": "Abin Espionagem Ilegal",
-      "descricao": "Uso da Abin para monitorar ilegalmente adversários e família.",
-      "envolvidos": "Abin, Alexandre Ramagem, família Bolsonaro.",
-      "consequencias": "Investigações pela PF; demissões; questionamentos sobre abuso de poder."
-    }
-  ],
-  "2019": [
-    {
-      "governo": "Governo Bolsonaro (2019-2022)",
-      "titulo": "Laranja do PSL",
-      "descricao": "Uso de candidaturas laranjas para desvio de fundos eleitorais.",
-      "envolvidos": "PSL, Luciano Bivar, família Bolsonaro.",
-      "consequencias": "Rompimento de Bolsonaro com PSL; investigações eleitorais; cassações de mandatos."
-    }
-  ],
-  "2018": [
-    {
-      "governo": "Governo Temer (2016-2018)",
-      "titulo": "Decreto dos Portos",
-      "descricao": "Suspeita de favorecimento a empresas portuárias em troca de propina.",
-      "envolvidos": "Michel Temer, Rodrimar.",
-      "consequencias": "Denúncia pela PGR; processo arquivado no STF após fim do mandato; Temer preso em 2019."
-    }
-  ],
-  "2017": [
-    {
-      "governo": "Governo Temer (2016-2018)",
-      "titulo": "JBS",
-      "descricao": "Gravação de Temer aprovando suborno; delação dos irmãos Batista.",
-      "envolvidos": "Michel Temer, Joesley Batista, Aécio Neves.",
-      "consequencias": "Duas denúncias contra Temer barradas pela Câmara; crise política; Temer evitou julgamento enquanto presidente."
-    }
-  ],
   "2016": [
-    {
-      "governo": "Governo Dilma (2011-2016)",
-      "titulo": "Impeachment de Dilma",
-      "descricao": "Processo de impeachment por pedaladas fiscais e irregularidades orçamentárias.",
-      "envolvidos": "Dilma Rousseff, equipe econômica.",
-      "consequencias": "Cassação do mandato em agosto de 2016; Temer assume presidência; Dilma inelegível até 2026."
-    },
     {
       "titulo": "Pedaladas Fiscais",
       "descricao": "Manobras contábeis ilegais.",
@@ -133,26 +17,26 @@
   ],
   "2015": [
     {
-      "governo": "Governo Dilma (2011-2016)",
-      "titulo": "Operação Zelotes",
-      "descricao": "Fraudes no CARF para anular débitos fiscais via propina.",
-      "envolvidos": "Luís Cláudio Lula da Silva, conselheiros do CARF, empresas.",
-      "consequencias": "Prisões e condenações de envolvidos; investigações sobre lobby; prejuízo estimado em R$ 20 bilhões."
-    },
-    {
-      "governo": "Governo Dilma (2011-2016)",
-      "titulo": "Petrolão (Lava Jato)",
-      "descricao": "Esquema de corrupção na Petrobras com propinas de empreiteiras.",
-      "envolvidos": "PT, PMDB, PP, empreiteiras (Odebrecht, OAS), políticos (Lula, Dilma).",
-      "consequencias": "Centenas de condenações; recuperação de R$ 6 bilhões; contribuição para impeachment de Dilma; prisão de Lula (anulada em 2021)."
-    },
-    {
       "titulo": "Caso Delcídio do Amaral",
       "descricao": "Tentativa de obstruir Lava Jato.",
       "envolvidos": "Delcídio Amaral, Cerveró, Lula, Dilma.",
       "governo": "Governo Dilma (2014-2016)",
       "consequencias": "Prisão de Delcídio; mandato cassado em 2016, inelegível por 11 anos; absolvido em 2018; delação implicou Dilma e Lula, mas MPF pediu cancelamento por mentiras."
-    },    
+    },
+    {
+      "titulo": "Pedaladas Fiscais",
+      "descricao": "Manobras contábeis ilegais.",
+      "envolvidos": "Dilma, equipe econômica.",
+      "governo": "Governo Dilma (2014-2016)",
+      "consequencias": "Parecer unânime do TCU considerou ilegal; embasou o impeachment de Dilma Rousseff, com cassação em 2016."
+    },
+    {
+      "titulo": "Operação Zelotes",
+      "descricao": "Fraudes no CARF, envolvendo filho de Lula.",
+      "envolvidos": "Luís Cláudio Lula da Silva, conselheiros.",
+      "governo": "Governo Dilma (2014-2016)",
+      "consequencias": "Investigações sobre fraudes no CARF; desfechos variados, com algumas condenações de conselheiros; Luís Cláudio investigado, mas sem condenação final detalhada na pesquisa."
+    },
     {
       "titulo": "Escândalo da Eletronuclear",
       "descricao": "Desvios em Angra 3, ligado à Lava Jato.",
@@ -166,6 +50,22 @@
       "envolvidos": "Petrobras.",
       "governo": "Governo Dilma (2014-2016)",
       "consequencias": "Investigações e condenações relacionadas à Lava Jato; recuperação de fundos e impacto na Petrobras."
+    }
+  ],
+  "2015-2016": [
+    {
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Manobras contábeis ilegais.",
+      "envolvidos": "Dilma, equipe econômica.",
+      "consequencias": "Impeachment.",
+      "titulo": "Pedaladas Fiscais"
+    },
+    {
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Fraudes no CARF, envolvendo filho de Lula.",
+      "envolvidos": "Luís Cláudio Lula da Silva, conselheiros.",
+      "consequencias": "Prisões, processos.",
+      "titulo": "Operação Zelotes"
     }
   ],
   "2014": [
