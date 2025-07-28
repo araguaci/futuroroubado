@@ -6,11 +6,11 @@ import { ScandalEvent } from '@/types';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { cn } from '@/lib/utils';
 import { ArrowUp } from 'lucide-react';
-import { Skeleton } from '@/components/ui/skeleton'; // Importar o componente Skeleton
+import { Skeleton } from '@/components/ui/skeleton';
 
 interface TimelineProps {
   events: ScandalEvent[];
-  isLoading: boolean; // Nova prop para o estado de carregamento
+  isLoading: boolean;
 }
 
 const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
@@ -30,7 +30,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
     const governmentFilters = Object.entries(governmentCounts)
       .map(([name, count]) => ({ name, count }))
       .sort((a, b) => b.count - a.count)
-      .slice(0, 7); // Top 7 governments
+      .slice(0, 7);
 
     const allEventsCount = events.length;
 
@@ -61,7 +61,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
   };
 
   const handleScroll = () => {
-    if (window.scrollY > 300) { // Show button after scrolling 300px
+    if (window.scrollY > 300) {
       setShowScrollToTop(true);
     } else {
       setShowScrollToTop(false);
@@ -71,7 +71,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // Smooth scroll animation
+      behavior: 'smooth'
     });
   };
 
@@ -142,26 +142,26 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
 
       <div className="relative">
         {/* Central Line: Aligned left on mobile, centered on desktop */}
-        <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-gray-400 md:transform md:-translate-x-1/2" aria-hidden="true"></div>
+        <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-1 bg-gray-500 md:transform md:-translate-x-1/2" aria-hidden="true"></div>
 
         {isLoading ? (
           // Renderiza esqueletos quando está carregando
           <div className="space-y-8">
-            {[...Array(5)].map((_, i) => ( // Renderiza 5 cartões de esqueleto
+            {[...Array(5)].map((_, i) => (
               <div key={i} className="relative mb-8">
                 {/* Esqueleto do marcador de ano */}
                 <div className="relative h-24 flex items-center justify-center" style={{ zIndex: 2 }}>
                   <Skeleton className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 w-16 h-16 rounded-full" />
                   <div className={cn(
                     "hidden md:block absolute top-1/2 -translate-y-1/2 h-0.5 bg-gray-400 w-24",
-                    { "left-[calc(50%-8rem)]": i % 2 === 0 }, // Alterna lado para simular layout
+                    { "left-[calc(50%-8rem)]": i % 2 === 0 },
                     { "left-[calc(50%+2rem)]": i % 2 !== 0 }
                   )}></div>
                 </div>
                 
                 <div className={cn(
                   "relative flex items-center w-full",
-                  { "flex-row-reverse": !isMobile && i % 2 === 0 } // Simula alternância de lado
+                  { "flex-row-reverse": !isMobile && i % 2 === 0 }
                 )}>
                   <div className={cn("hidden md:block", { "w-5/12": !isMobile })}></div>
                   
