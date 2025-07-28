@@ -137,7 +137,7 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
             return (
               <div key={`${event.nome}-${index}`} className="relative">
                 {showYear && (
-                  <div className="relative my-8" style={{ zIndex: 2 }}>
+                  <div className="relative h-0" style={{ zIndex: 2 }}> {/* h-0 to not take vertical space, relative for absolute children */}
                     {/* Year display: Aligned with line on mobile, centered on desktop */}
                     <div className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 top-1/2 -translate-y-1/2 w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center border-4 border-white shadow-md">
                       <span className="text-white text-base font-bold">
@@ -146,9 +146,9 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                     </div>
                     {/* Horizontal line for desktop year marker */}
                     <div className={cn(
-                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-0.5 bg-gray-400 w-24", // Increased width to w-24 (6rem)
-                      { "left-[calc(50%-8rem)]": isLeft }, // Starts 6rem to the left of the year circle's left edge (0.5rem is half of w-16)
-                      { "left-[calc(50%+2rem)]": !isLeft } // Starts at the year circle's right edge
+                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-0.5 bg-gray-400 w-24",
+                      { "left-[calc(50%-8rem)]": isLeft },
+                      { "left-[calc(50%+2rem)]": !isLeft }
                     )}></div>
                   </div>
                 )}
@@ -159,8 +159,11 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                   // flex-row-reverse is applied when the card should be on the left side (isLeft)
                   { "flex-row-reverse": !isMobile && isLeft }
                 )}>
+                  {/* Spacer for desktop layout */}
+                  <div className={cn("hidden md:block", { "w-5/12": !isMobile })}></div>
+                  
                   {/* Central dot: Aligned with line on mobile, centered on desktop */}
-                  <div className="z-10 absolute left-8 md:left-1/2 md:relative md:transform md:-translate-x-1/2">
+                  <div className="z-10 absolute left-8 md:left-1/2 top-1/2 -translate-y-1/2 md:transform md:-translate-x-1/2">
                     <div className="w-4 h-4 bg-gray-800 border-2 border-white rounded-full shadow-sm"></div>
                   </div>
                   
