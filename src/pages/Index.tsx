@@ -1,5 +1,5 @@
 import Timeline from '@/components/Timeline';
-import React from 'react';
+import React, { useState, useEffect } from 'react'; // Importar useState e useEffect
 import { ScandalEvent } from '@/types';
 import scandalsPart1 from '@/data/scandals_part1.json';
 import scandalsPart2 from '@/data/scandals_part2.json';
@@ -63,11 +63,23 @@ const processScandalsData = (): ScandalEvent[] => {
 };
 
 const Index = () => {
-  const events = processScandalsData();
+  const [events, setEvents] = useState<ScandalEvent[]>([]);
+  const [isLoading, setIsLoading] = useState(true); // Estado de carregamento inicial
+
+  useEffect(() => {
+    // Simula um atraso no carregamento/processamento dos dados
+    const timer = setTimeout(() => {
+      const processedEvents = processScandalsData();
+      setEvents(processedEvents);
+      setIsLoading(false); // Define isLoading como false após o processamento
+    }, 1000); // Atraso de 1 segundo para simular carregamento
+
+    return () => clearTimeout(timer); // Limpa o timer se o componente for desmontado
+  }, []); // Executa apenas uma vez ao montar o componente
 
   return (
     <div className="bg-gray-50 min-h-screen">
-      <Timeline events={events} />
+      <Timeline events={events} isLoading={isLoading} /> {/* Passa a prop isLoading */}
     </div>
   );
 };
