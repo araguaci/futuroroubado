@@ -1,0 +1,1220 @@
+{
+  "1990s": [
+    {
+      "nome": "Escândalo do Proer",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Programa bancário.",
+      "envolvidos": "Bancos.",
+      "consequencias": "Ligação indireta.",
+      "ano": "1990s"
+    }
+  ],
+  "1995-2002": [
+    {
+      "nome": "Escândalo de Corrupção dos Ministros no Governo FHC",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Múltiplos casos de ministros.",
+      "envolvidos": "Ministros.",
+      "consequencias": "",
+      "ano": "1995-2002"
+    },
+    {
+      "nome": "Abuso de Medidas Provisórias",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Excesso de MPs (5.491).",
+      "envolvidos": "Governo FHC.",
+      "consequencias": "",
+      "ano": "1995-2002"
+    }
+  ],
+  "2000-2001": [
+    {
+      "nome": "Acidentes Ambientais da Petrobras",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Vazamentos de óleo.",
+      "envolvidos": "Petrobras.",
+      "consequencias": "",
+      "ano": "2000-2001"
+    }
+  ],
+  "2000s": [
+    {
+      "nome": "Escândalo da Suposta Ligação do PT com o MST",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Alegações de financiamento ilegal.",
+      "envolvidos": "PT, MST.",
+      "consequencias": "Não comprovado.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Escândalo da Suposta Ligação do PT com a FARC",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Acusações de apoio a guerrilha.",
+      "envolvidos": "PT.",
+      "consequencias": "Não substanciado.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Licitação Para a Compra de Gêneros Básicos",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Superfaturamento em compras.",
+      "envolvidos": "Governo federal.",
+      "consequencias": "Investigações menores.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Caso José Eduardo Dutra",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Irregularidades na Petrobras.",
+      "envolvidos": "José Eduardo Dutra.",
+      "consequencias": "Sem condenações.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Escândalo dos Frangos (Roraima)",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Fraudes em exportações.",
+      "envolvidos": "Locais em Roraima.",
+      "consequencias": "Investigações.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Escândalo da Norospar",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Irregularidades em saúde no PR.",
+      "envolvidos": "Associação Norospar.",
+      "consequencias": "Sem ligação federal direta.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Escândalo da NGO Ágora",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Desvios em convênios.",
+      "envolvidos": "ONG Ágora.",
+      "consequencias": "Investigações.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Caso Henrique Meirelles",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Irregularidades financeiras.",
+      "envolvidos": "Henrique Meirelles.",
+      "consequencias": "Absolvição.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Irregularidades na Bolsa-Escola",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Desvios no programa.",
+      "envolvidos": "Gestores.",
+      "consequencias": "Auditorias.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Irregularidades do Programa Restaurante Popular",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Favorecimento a prefeituras PT.",
+      "envolvidos": "Programa.",
+      "consequencias": "Investigações.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Escândalo dos Fundos de Pensão",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Desvios em fundos.",
+      "envolvidos": "Fundos de pensão.",
+      "consequencias": "Operações PF.",
+      "ano": "2000s"
+    },
+    {
+      "nome": "Escândalo do Foro de São Paulo",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Alegações ideológicas.",
+      "envolvidos": "PT.",
+      "consequencias": "Não criminal.",
+      "ano": "2000s"
+    }
+  ],
+  "2003-2004": [
+    {
+      "nome": "Abuso de Medidas Provisórias no Governo Lula entre 2003 e 2004",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Excesso de MPs.",
+      "envolvidos": "Governo Lula.",
+      "consequencias": "",
+      "ano": "2003-2004"
+    },
+    {
+      "nome": "Várias Aberturas de Licitações da Presidência Para a Compra de Artigos de Luxo",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Gastos excessivos em luxos.",
+      "envolvidos": "Presidência.",
+      "consequencias": "Críticas.",
+      "ano": "2003-2004"
+    },
+    {
+      "nome": "Lei de Responsabilidade Fiscal (Recuos)",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Descumprimento da LRF.",
+      "envolvidos": "Governo federal.",
+      "consequencias": "Debates econômicos.",
+      "ano": "2003-2004"
+    },
+    {
+      "nome": "Abuso de Medidas Provisórias no Governo Lula",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Excesso de MPs.",
+      "envolvidos": "Governo Lula.",
+      "consequencias": "Críticas constitucionais.",
+      "ano": "2003-2004"
+    }
+  ],
+  "2003-2010": [
+    {
+      "nome": "Escândalo de Corrupção dos Ministros no Governo Lula",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Múltiplos casos.",
+      "envolvidos": "Ministros.",
+      "consequencias": "",
+      "ano": "2003-2010"
+    },
+    {
+      "nome": "Escândalo dos Gastos Públicos dos Ministros",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Uso excessivo de recursos.",
+      "envolvidos": "Ministros de Lula.",
+      "consequencias": "Críticas, ajustes normativos.",
+      "ano": "2003-2010"
+    },
+    {
+      "nome": "Escândalo de Corrupção dos Ministros no Governo Lula",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Múltiplos casos de ministros.",
+      "envolvidos": "Ministros.",
+      "consequencias": "Demissões.",
+      "ano": "2003-2010"
+    }
+  ],
+  "2006-2007": [
+    {
+      "nome": "Crise no Setor Aéreo",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Caos em aeroportos.",
+      "envolvidos": "Setor aéreo.",
+      "consequencias": "Reformas.",
+      "ano": "2006-2007"
+    }
+  ],
+  "2011-2012": [
+    {
+      "nome": "Faxina Ética de Dilma",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Demissões de ministros por irregularidades.",
+      "envolvidos": "Palocci, Rossi, Silva, Novais, Negromonte.",
+      "consequencias": "Reformas ministeriais.",
+      "ano": "2011-2012"
+    }
+  ],
+  "2015-2016": [
+    {
+      "nome": "Pedaladas Fiscais",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Manobras contábeis ilegais.",
+      "envolvidos": "Dilma, equipe econômica.",
+      "consequencias": "Impeachment.",
+      "ano": "2015-2016"
+    },
+    {
+      "nome": "Operação Zelotes",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Fraudes no CARF, envolvendo filho de Lula.",
+      "envolvidos": "Luís Cláudio Lula da Silva, conselheiros.",
+      "consequencias": "Prisões, processos.",
+      "ano": "2015-2016"
+    }
+  ],
+  "Não especificado": [
+    {
+      "nome": "Contra Políticos da Bahia",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Alegações vagas de corrupção política.",
+      "envolvidos": "Políticos baianos.",
+      "consequencias": "Sem detalhes substanciais.",
+      "ano": "Não especificado"
+    },
+    {
+      "nome": "Caso Antônio Celso Cipriani",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Alegações vagas.",
+      "envolvidos": "Antônio Celso Cipriani.",
+      "consequencias": "Sem detalhes.",
+      "ano": "Não especificado"
+    },
+    {
+      "nome": "Escândalo da Interbrazil",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Alegações vagas.",
+      "envolvidos": "Interbrazil.",
+      "consequencias": "Sem detalhes.",
+      "ano": "Não especificado"
+    }
+  ],
+  "1980": [
+    {
+      "nome": "Caso do Grupo Delfim",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Acusações de favorecimento a empresas ligadas ao ministro Delfim Netto.",
+      "envolvidos": "Delfim Netto, empresários.",
+      "consequencias": "",
+      "ano": "1980"
+    },
+    {
+      "nome": "Escândalo da Mandioca",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Fraudes em financiamentos agrícolas para plantações de mandioca.",
+      "envolvidos": "Produtores rurais, bancos estatais.",
+      "consequencias": "",
+      "ano": "1980"
+    },
+    {
+      "nome": "Caso Morel",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Acusações de corrupção no Ministério da Educação.",
+      "envolvidos": "Ministro Morel, assessores.",
+      "consequencias": "",
+      "ano": "1980"
+    }
+  ],
+  "1981": [
+    {
+      "nome": "Caso Capemi",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Desvio de recursos de fundo de pensão para compra superfaturada de madeira na Amazônia.",
+      "envolvidos": "Militares, diretores da Capemi.",
+      "consequencias": "",
+      "ano": "1981"
+    },
+    {
+      "nome": "Crime da Mala",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Assassinato ligado a contrabando e corrupção.",
+      "envolvidos": "Policiais, criminosos.",
+      "consequencias": "",
+      "ano": "1981"
+    }
+  ],
+  "1982": [
+    {
+      "nome": "Escândalo da Brasilinvest",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Irregularidades em investimentos e empréstimos bancários.",
+      "envolvidos": "Banco Brasilinvest, autoridades financeiras.",
+      "consequencias": "",
+      "ano": "1982"
+    }
+  ],
+  "1983": [
+    {
+      "nome": "Escândalo das Polonetas",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Corrupção em contratos de importação de equipamentos.",
+      "envolvidos": "Empresas estrangeiras, funcionários públicos.",
+      "consequencias": "",
+      "ano": "1983"
+    },
+    {
+      "nome": "Caso Coroa-Brastel",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Fraudes em contratos de telecomunicações.",
+      "envolvidos": "Empresas Coroa e Brastel, militares.",
+      "consequencias": "",
+      "ano": "1983"
+    }
+  ],
+  "1984": [
+    {
+      "nome": "Escândalo do Instituto Nacional de Assistência Médica do INAMPS",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Desvios em recursos da saúde pública.",
+      "envolvidos": "Diretores do INAMPS, fornecedores.",
+      "consequencias": "",
+      "ano": "1984"
+    },
+    {
+      "nome": "Escândalo das Jóias",
+      "governo": "Governo João Figueiredo (1979-1985)",
+      "descricao": "Contrabando de joias e pedras preciosas.",
+      "envolvidos": "Autoridades alfandegárias, contrabandistas.",
+      "consequencias": "",
+      "ano": "1984"
+    }
+  ],
+  "1985": [
+    {
+      "nome": "Caso Imbraim Abi-Ackel",
+      "governo": "Governo Sarney (1985-1990)",
+      "descricao": "Acusações de irregularidades no Ministério da Justiça.",
+      "envolvidos": "Ministro Abi-Ackel.",
+      "consequencias": "",
+      "ano": "1985"
+    }
+  ],
+  "1986": [
+    {
+      "nome": "Caso Chiarelli",
+      "governo": "Governo Sarney (1985-1990)",
+      "descricao": "Dossiê contra senador por corrupção.",
+      "envolvidos": "Carlos Chiarelli, opositores.",
+      "consequencias": "",
+      "ano": "1986"
+    }
+  ],
+  "1987": [
+    {
+      "nome": "Escândalo do Ministério das Comunicações",
+      "governo": "Governo Sarney (1985-1990)",
+      "descricao": "Concessões de rádios e TVs em troca de apoio político.",
+      "envolvidos": "Ministro Antônio Carlos Magalhães, aliados.",
+      "consequencias": "",
+      "ano": "1987"
+    },
+    {
+      "nome": "Escândalo da Administração de Orestes Quércia",
+      "governo": "Governo Sarney (1985-1990)",
+      "descricao": "Corrupção no governo de São Paulo.",
+      "envolvidos": "Governador Quércia.",
+      "consequencias": "",
+      "ano": "1987"
+    }
+  ],
+  "1988": [
+    {
+      "nome": "CPI da Corrupção",
+      "governo": "Governo Sarney (1985-1990)",
+      "descricao": "Investigação de corrupção generalizada no governo.",
+      "envolvidos": "Políticos aliados, Sarney.",
+      "consequencias": "",
+      "ano": "1988"
+    }
+  ],
+  "1989": [
+    {
+      "nome": "Escândalo do Contrabando das Pedras Preciosas",
+      "governo": "Governo Sarney (1985-1990)",
+      "descricao": "Contrabando ilegal de gemas.",
+      "envolvidos": "Mineradores, autoridades alfandegárias.",
+      "consequencias": "",
+      "ano": "1989"
+    }
+  ],
+  "1990": [
+    {
+      "nome": "Escândalo da Aprovação da Lei da Privatização das Estatais",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Irregularidades na lei de privatizações.",
+      "envolvidos": "Congresso, Collor.",
+      "consequencias": "",
+      "ano": "1990"
+    },
+    {
+      "nome": "Escândalo do BC",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Irregularidades no Banco Central.",
+      "envolvidos": "Diretores do BC.",
+      "consequencias": "",
+      "ano": "1990"
+    },
+    {
+      "nome": "Escândalo do BB",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Fraudes no Banco do Brasil.",
+      "envolvidos": "Diretores do BB.",
+      "consequencias": "",
+      "ano": "1990"
+    }
+  ],
+  "1991": [
+    {
+      "nome": "Programa Nacional de Desestatização",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Fraudes em privatizações.",
+      "envolvidos": "Equipe econômica.",
+      "consequencias": "",
+      "ano": "1991"
+    },
+    {
+      "nome": "Escândalo do BCCI",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Lavagem de dinheiro via banco internacional.",
+      "envolvidos": "Sérgio Corrêa da Costa.",
+      "consequencias": "",
+      "ano": "1991"
+    },
+    {
+      "nome": "Escândalo da Ceme",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Fraudes em medicamentos.",
+      "envolvidos": "Central de Medicamentos.",
+      "consequencias": "",
+      "ano": "1991"
+    },
+    {
+      "nome": "Escândalo da Eletronorte",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Irregularidades em energia.",
+      "envolvidos": "Diretores da Eletronorte.",
+      "consequencias": "",
+      "ano": "1991"
+    },
+    {
+      "nome": "Escândalo da Ação Social",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Fraudes em programas sociais.",
+      "envolvidos": "Ministério da Ação Social.",
+      "consequencias": "",
+      "ano": "1991"
+    },
+    {
+      "nome": "Escândalo da Merenda",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Desvios em merenda escolar.",
+      "envolvidos": "Fornecedores, governos estaduais.",
+      "consequencias": "",
+      "ano": "1991"
+    },
+    {
+      "nome": "Escândalo das Comunicações",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Concessões irregulares.",
+      "envolvidos": "Ministério das Comunicações.",
+      "consequencias": "",
+      "ano": "1991"
+    },
+    {
+      "nome": "Escândalo do Fundo de Participação",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Desvios em repasses a municípios.",
+      "envolvidos": "Ministérios.",
+      "consequencias": "",
+      "ano": "1991"
+    }
+  ],
+  "1992": [
+    {
+      "nome": "Escândalo do INSS",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Desvios na previdência social.",
+      "envolvidos": "Diretores do INSS.",
+      "consequencias": "",
+      "ano": "1992"
+    },
+    {
+      "nome": "Escândalo da LBA",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Desvios na Legião Brasileira de Assistência.",
+      "envolvidos": "Rosane Collor.",
+      "consequencias": "",
+      "ano": "1992"
+    },
+    {
+      "nome": "Esquema PP",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Corrupção via Paulo César Farias.",
+      "envolvidos": "PC Farias, Collor.",
+      "consequencias": "",
+      "ano": "1992"
+    },
+    {
+      "nome": "Esquema PC",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Compra de apoio político.",
+      "envolvidos": "Collor, aliados.",
+      "consequencias": "",
+      "ano": "1992"
+    },
+    {
+      "nome": "Escândalo do FGTS",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Desvios no fundo de garantia.",
+      "envolvidos": "Gestores do FGTS.",
+      "consequencias": "",
+      "ano": "1992"
+    },
+    {
+      "nome": "Escândalo das Estatais",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Corrupção em empresas públicas.",
+      "envolvidos": "Gestores estatais.",
+      "consequencias": "",
+      "ano": "1992"
+    },
+    {
+      "nome": "Escândalo da Vasp",
+      "governo": "Governo Fernando Collor (1990-1992)",
+      "descricao": "Favorecimentos à companhia aérea.",
+      "envolvidos": "Vasp, governo.",
+      "consequencias": "",
+      "ano": "1992"
+    }
+  ],
+  "1993": [
+    {
+      "nome": "Centro Federal de Inteligência",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Criação para combater corrupção, mas controversa.",
+      "envolvidos": "Governo federal.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Caso Edmundo Pinto",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Assassinato ligado a corrupção.",
+      "envolvidos": "Edmundo Pinto, políticos.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Escândalo do DNOCS",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Fraudes em obras contra seca.",
+      "envolvidos": "Inocêncio Oliveira.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Escândalo da IBF",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Irregularidades em formulários.",
+      "envolvidos": "Indústria Brasileira de Formulários.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Irregularidades no Programa Nacional de Desestatização",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Fraudes em privatizações.",
+      "envolvidos": "Equipe econômica.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Caso Nilo Coelho",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Acusações de corrupção em Pernambuco.",
+      "envolvidos": "Nilo Coelho.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Caso Queiroz Galvão",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Fraudes em contratos em Pernambuco.",
+      "envolvidos": "Empresa Queiroz Galvão.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Jogo do Bicho",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Ligações com crime organizado no RJ.",
+      "envolvidos": "Castor de Andrade.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Caso Ney Maranhão",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Acusações de corrupção.",
+      "envolvidos": "Ney Maranhão.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Escândalo da Cruz Vermelha Brasileira",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Desvios em ajuda humanitária.",
+      "envolvidos": "Dirigentes da Cruz Vermelha.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Caso José Carlos da Rocha Lima",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Acusações de irregularidades.",
+      "envolvidos": "José Carlos da Rocha Lima.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Escândalo da Fundação Padre Francisco de Assis Castro Monteiro",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Desvios em fundação no CE.",
+      "envolvidos": "Gestores da fundação.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Escândalo da Administração de Jaime Campos",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Irregularidades no MT.",
+      "envolvidos": "Governador Jaime Campos.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Escândalo da Administração de Ottomar Pinto",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Fraudes em Roraima.",
+      "envolvidos": "Governador Ottomar Pinto.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Escândalo da Sudene de Pernambuco",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Desvios na Superintendência do Desenvolvimento do Nordeste.",
+      "envolvidos": "Gestores da Sudene.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "CPI do Detran",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Fraudes no Detran de SC.",
+      "envolvidos": "Funcionários do Detran.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Caso Restaurante Gulliver",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Tentativa de assassinato por denúncias na Sudene.",
+      "envolvidos": "Ronaldo Cunha Lima, Tarcísio Burity.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "CPI do Pó",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Tráfico de drogas na PB.",
+      "envolvidos": "Políticos locais.",
+      "consequencias": "",
+      "ano": "1993"
+    },
+    {
+      "nome": "Escândalo do Orçamento da União",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Desvios no orçamento federal (Anões do Orçamento).",
+      "envolvidos": "Deputados federais.",
+      "consequencias": "",
+      "ano": "1993"
+    }
+  ],
+  "1994": [
+    {
+      "nome": "Escândalo do INAMPS",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Desvios na previdência social.",
+      "envolvidos": "Diretores do INAMPS.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Caso Eliseu Resende",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Irregularidades em Minas Gerais.",
+      "envolvidos": "Eliseu Resende.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Escândalo da Telemig",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Corrupção em telecomunicações em MG.",
+      "envolvidos": "Telemig.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Escândalo da Paubrasil",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Fraudes em engenharia.",
+      "envolvidos": "Paubrasil Engenharia.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Escândalo da Administração de Roberto Requião",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Corrupção no PR.",
+      "envolvidos": "Governador Requião.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Escândalo da Colac",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Fraudes no RS.",
+      "envolvidos": "Colac.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Escândalo da Administração de Antônio Carlos Magalhães",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Corrupção na BA.",
+      "envolvidos": "Governador ACM.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Escândalo da Administração de Roberto Requião",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Repetição, corrupção no PR.",
+      "envolvidos": "Governador Requião.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Escândalo da Prefeitura de Natal",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Corrupção no RN.",
+      "envolvidos": "Prefeitos de Natal.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Escândalo da Estacom",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Fraudes em Tocantins.",
+      "envolvidos": "Estacom.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Compra e Venda dos Mandatos dos Deputados do PSD",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Corrupção em mandatos.",
+      "envolvidos": "Deputados do PSD.",
+      "consequencias": "",
+      "ano": "1994"
+    },
+    {
+      "nome": "Caso Ricupero",
+      "governo": "Governo Itamar Franco (1992-1995)",
+      "descricao": "Declarações vazadas sobre economia (Escândalo das Parabólicas).",
+      "envolvidos": "Ministro Ricupero.",
+      "consequencias": "",
+      "ano": "1994"
+    }
+  ],
+  "1995": [
+    {
+      "nome": "Escândalo do Sivam",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Fraudes em sistema de vigilância da Amazônia.",
+      "envolvidos": "Raytheon, ministros.",
+      "consequencias": "",
+      "ano": "1995"
+    },
+    {
+      "nome": "Escândalo do Proer",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Programa bancário.",
+      "envolvidos": "Bancos.",
+      "consequencias": "",
+      "ano": "1995"
+    }
+  ],
+  "1996": [
+    {
+      "nome": "Escândalo da Pasta Rosa",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Dossiê com acusações contra opositores.",
+      "envolvidos": "Governo FHC.",
+      "consequencias": "",
+      "ano": "1996"
+    },
+    {
+      "nome": "Escândalo da Administração de Paulo Maluf",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Corrupção em SP.",
+      "envolvidos": "Prefeito Maluf.",
+      "consequencias": "",
+      "ano": "1996"
+    },
+    {
+      "nome": "Caso PC Farias",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Assassinato ligado a corrupção.",
+      "envolvidos": "PC Farias.",
+      "consequencias": "",
+      "ano": "1996"
+    }
+  ],
+  "1997": [
+    {
+      "nome": "Escândalo da CONAN",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Irregularidades em agência.",
+      "envolvidos": "CONAN.",
+      "consequencias": "",
+      "ano": "1997"
+    },
+    {
+      "nome": "Escândalo da Compra de Votos Para Emenda da Reeleição",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Compra de votos para reeleição.",
+      "envolvidos": "Deputados, FHC.",
+      "consequencias": "",
+      "ano": "1997"
+    },
+    {
+      "nome": "Escândalo da Venda da Companhia Vale do Rio Doce",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Privatização subvalorizada.",
+      "envolvidos": "Vale, governo.",
+      "consequencias": "",
+      "ano": "1997"
+    },
+    {
+      "nome": "Escândalo dos Precatórios",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Fraudes em pagamentos judiciais.",
+      "envolvidos": "Prefeitos, juízes.",
+      "consequencias": "",
+      "ano": "1997"
+    },
+    {
+      "nome": "Quebra do Monopólio do Petróleo",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Criação da ANP com irregularidades.",
+      "envolvidos": "Petrobras.",
+      "consequencias": "",
+      "ano": "1997"
+    }
+  ],
+  "1998": [
+    {
+      "nome": "Escândalo do BNDES",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Verbas para estatais privatizadas.",
+      "envolvidos": "BNDES, empresas.",
+      "consequencias": "",
+      "ano": "1998"
+    },
+    {
+      "nome": "Escândalo da Telebrás",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Privatização suspeita.",
+      "envolvidos": "Telebrás.",
+      "consequencias": "",
+      "ano": "1998"
+    },
+    {
+      "nome": "Escândalo da Administração do PT",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Denúncias contra PT.",
+      "envolvidos": "PT.",
+      "consequencias": "",
+      "ano": "1998"
+    }
+  ],
+  "1999": [
+    {
+      "nome": "Escândalo da Previdência",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Desvios na previdência.",
+      "envolvidos": "INSS.",
+      "consequencias": "",
+      "ano": "1999"
+    },
+    {
+      "nome": "Escândalo da Encol",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Falência fraudulenta de construtora.",
+      "envolvidos": "Encol.",
+      "consequencias": "",
+      "ano": "1999"
+    },
+    {
+      "nome": "Escândalo da Mesbla",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Irregularidades em varejo.",
+      "envolvidos": "Mesbla.",
+      "consequencias": "",
+      "ano": "1999"
+    },
+    {
+      "nome": "Escândalo da Desvalorização do Real",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Especulação cambial.",
+      "envolvidos": "Banco Central.",
+      "consequencias": "",
+      "ano": "1999"
+    },
+    {
+      "nome": "Escândalo dos Fiscais de São Paulo",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Máfia dos fiscais.",
+      "envolvidos": "Fiscais de SP.",
+      "consequencias": "",
+      "ano": "1999"
+    },
+    {
+      "nome": "Escândalo do Mappin",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Fraudes em varejo.",
+      "envolvidos": "Mappin.",
+      "consequencias": "",
+      "ano": "1999"
+    },
+    {
+      "nome": "Escândalo dos Bancos",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Fraudes bancárias.",
+      "envolvidos": "Bancos privados.",
+      "consequencias": "",
+      "ano": "1999"
+    },
+    {
+      "nome": "Escândalo da Pane DDD do Sistema Telefônico Privatizado",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Falha no sistema telefônico.",
+      "envolvidos": "Empresas privatizadas.",
+      "consequencias": "",
+      "ano": "1999"
+    },
+    {
+      "nome": "Caso Marka/FonteCindam",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Prejuízos cambiais.",
+      "envolvidos": "Bancos.",
+      "consequencias": "",
+      "ano": "1999"
+    }
+  ],
+  "2000": [
+    {
+      "nome": "Escândalo do Banestado",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Evasão fiscal via banco.",
+      "envolvidos": "Banestado.",
+      "consequencias": "",
+      "ano": "2000"
+    },
+    {
+      "nome": "Escândalo do Banespa",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Privatização suspeita.",
+      "envolvidos": "Banespa.",
+      "consequencias": "",
+      "ano": "2000"
+    },
+    {
+      "nome": "Escândalo do Judiciário",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Corrupção no Judiciário.",
+      "envolvidos": "Juízes.",
+      "consequencias": "",
+      "ano": "2000"
+    },
+    {
+      "nome": "CPI do Narcotráfico",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Tráfico de drogas.",
+      "envolvidos": "Políticos, traficantes.",
+      "consequencias": "",
+      "ano": "2000"
+    },
+    {
+      "nome": "Escândalo dos Medicamentos",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Superfaturamento de remédios.",
+      "envolvidos": "Ministério da Saúde.",
+      "consequencias": "",
+      "ano": "2000"
+    },
+    {
+      "nome": "Escândalo dos Desvios de Verbas do TRT-SP",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Desvios no Tribunal Regional do Trabalho.",
+      "envolvidos": "Nicolau dos Santos Neto (Lalau).",
+      "consequencias": "",
+      "ano": "2000"
+    },
+    {
+      "nome": "Corrupção na Prefeitura de São Paulo",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Caso Celso Pitta.",
+      "envolvidos": "Prefeito Pitta.",
+      "consequencias": "",
+      "ano": "2000"
+    }
+  ],
+  "2001": [
+    {
+      "nome": "CPI do Crime Organizado",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Crime organizado.",
+      "envolvidos": "Máfias.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Escândalo da Banda Podre",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Corrupção policial.",
+      "envolvidos": "Policiais.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Escândalo da Transbrasil",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Favorecimentos à companhia aérea.",
+      "envolvidos": "Transbrasil.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Escândalo da Sudam",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Desvios na Superintendência da Amazônia.",
+      "envolvidos": "Gestores da Sudam.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Escândalo da Sudene",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Fraudes no Nordeste.",
+      "envolvidos": "Sudene.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Escândalo da Quebra do Sigilo do Painel do Senado",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Violação de sigilo em votações.",
+      "envolvidos": "Senadores.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Escândalos no Senado em 2001",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Múltiplos casos.",
+      "envolvidos": "Senado.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Escândalo da Administração de Mão Santa",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Corrupção no PI.",
+      "envolvidos": "Governador Mão Santa.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Caso Toninho do PT",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Assassinato de prefeito.",
+      "envolvidos": "PT.",
+      "consequencias": "",
+      "ano": "2001"
+    },
+    {
+      "nome": "Caso Toninho do PT",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Assassinato do prefeito de Campinas, suspeitas locais.",
+      "envolvidos": "Suspeitos locais, PT.",
+      "consequencias": "Sem conexão federal comprovada.",
+      "ano": "2001"
+    }
+  ],
+  "2002": [
+    {
+      "nome": "Dossiê Cayman",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Dossiê falso contra opositores.",
+      "envolvidos": "Governo FHC.",
+      "consequencias": "",
+      "ano": "2002"
+    },
+    {
+      "nome": "Escândalo dos Grampos Contra FHC e Aliados",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Espionagem ilegal.",
+      "envolvidos": "ABIN.",
+      "consequencias": "",
+      "ano": "2002"
+    },
+    {
+      "nome": "Escândalo da Administração da Roseana Sarney",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Corrupção no MA.",
+      "envolvidos": "Governadora Roseana Sarney.",
+      "consequencias": "",
+      "ano": "2002"
+    },
+    {
+      "nome": "Escândalo do Banpará",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Privatização suspeita.",
+      "envolvidos": "Banpará.",
+      "consequencias": "",
+      "ano": "2002"
+    },
+    {
+      "nome": "Caso Lunus",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Caso Roseana Sarney com dinheiro em empresa.",
+      "envolvidos": "Roseana Sarney.",
+      "consequencias": "",
+      "ano": "2002"
+    },
+    {
+      "nome": "Escândalo do Abafamento das CPIs no Governo do FHC",
+      "governo": "Governo Fernando Henrique (1995-2003)",
+      "descricao": "Bloqueio de investigações.",
+      "envolvidos": "FHC, aliados.",
+      "consequencias": "",
+      "ano": "2002"
+    },
+    {
+      "nome": "Caso Celso Daniel",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Assassinato ligado a corrupção.",
+      "envolvidos": "PT local.",
+      "consequencias": "",
+      "ano": "2002"
+    },
+    {
+      "nome": "Escândalo do Proprinoduto",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Desvios em obras no RJ.",
+      "envolvidos": "Rodrigo Silveirinha.",
+      "consequencias": "",
+      "ano": "2002"
+    },
+    {
+      "nome": "Caso Celso Daniel",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Assassinato do prefeito petista, alegações de ligação com corrupção no PT.",
+      "envolvidos": "Família Daniel, PT local.",
+      "consequencias": "Investigações inconclusivas.",
+      "ano": "2002"
+    },
+    {
+      "nome": "Escândalo do Propinoduto (Caso Rodrigo Silveirinha)",
+      "governo": "Governo Lula (2003-2014)",
+      "descricao": "Desvios em obras no RJ.",
+      "envolvidos": "Políticos locais.",
+      "consequencias": "Prisões.",
+      "ano": "2002"
+    }
+  ]
+}

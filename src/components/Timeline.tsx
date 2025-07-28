@@ -153,9 +153,9 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                 <div className="relative h-24 flex items-center justify-center" style={{ zIndex: 2 }}>
                   <Skeleton className="absolute left-8 md:left-1/2 md:transform md:-translate-x-1/2 w-16 h-16 rounded-full" />
                   <div className={cn(
-                    "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-24",
-                    { "left-[calc(50%-32px)]": i % 2 === 0 }, // Adjusted left position for left-aligned card
-                    { "left-[calc(50%+8px)]": i % 2 !== 0 }  // Adjusted left position for right-aligned card
+                    "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-[96px]", // Usando w-[96px] para garantir largura
+                    { "right-[calc(50%+32px)]": i % 2 === 0 }, // Linha se estende para a esquerda
+                    { "left-[calc(50%+32px)]": i % 2 !== 0 }  // Linha se estende para a direita
                   )}></div>
                 </div>
                 
@@ -172,11 +172,11 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   
                   {/* Esqueleto do cartão do evento */}
                   <div className={cn(
-                    "w-full px-2 md:px-0",
+                    "w-full px-2 md:px-4", // Adicionado md:px-4 para padding interno
                     { "md:w-5/12": !isMobile },
                     { "ml-12": isMobile },
-                    { "md:mr-8": !isMobile && i % 2 === 0 }, // Add margin-right for left-aligned skeleton card
-                    { "md:ml-8": !isMobile && i % 2 !== 0 }  // Add margin-left for right-aligned skeleton card
+                    { "md:mr-8": !isMobile && i % 2 === 0 }, // Margem para card alinhado à esquerda
+                    { "md:ml-8": !isMobile && i % 2 !== 0 }  // Margem para card alinhado à direita
                   )}>
                     <Skeleton className="h-32 w-full rounded-lg" />
                   </div>
@@ -204,9 +204,9 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                       </span>
                     </div>
                     <div className={cn(
-                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-24",
-                      { "left-[calc(50%-32px)]": isLeft }, // Adjusted left position for left-aligned card
-                      { "left-[calc(50%+8px)]": !isLeft }  // Adjusted left position for right-aligned card
+                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-1 bg-gray-500 w-[96px]", // Usando w-[96px] para garantir largura
+                      { "right-[calc(50%+32px)]": isLeft }, // Linha se estende para a esquerda
+                      { "left-[calc(50%+32px)]": !isLeft } // Linha se estende para a direita
                     )}></div>
                   </div>
                 )}
@@ -222,11 +222,11 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   </div>
                   
                   <div className={cn(
-                    "w-full px-2 md:px-0",
+                    "w-full px-2 md:px-4", // Adicionado md:px-4 para padding interno
                     { "md:w-5/12": !isMobile },
                     { "ml-12": isMobile },
-                    { "md:mr-8": !isMobile && isLeft }, // Add margin-right for left-aligned card
-                    { "md:ml-8": !isMobile && !isLeft }  // Add margin-left for right-aligned card
+                    { "md:mr-8": !isMobile && isLeft }, // Margem para card alinhado à esquerda
+                    { "md:ml-8": !isMobile && !isLeft }  // Margem para card alinhado à direita
                   )}>
                     <TimelineEventCard event={event} isLeft={isLeft} isMobile={isMobile} />
                   </div>
