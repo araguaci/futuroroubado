@@ -163,7 +163,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   "relative flex items-center w-full",
                   { "flex-row-reverse": !isMobile && i % 2 === 0 }
                 )}>
-                  <div className={cn("hidden md:block", { "w-5/12": !isMobile })}></div>
+                  <div className={cn("hidden md:block", { "md:max-w-sm": !isMobile })}></div> {/* Alterado de w-5/12 para max-w-sm */}
                   
                   {/* Esqueleto do ponto central */}
                   <div className="z-10 absolute left-8 md:left-1/2 top-1/2 -translate-y-1/2 md:transform md:-translate-x-1/2">
@@ -173,7 +173,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   {/* Esqueleto do cartão do evento */}
                   <div className={cn(
                     "w-full px-2 md:px-4", // Adicionado md:px-4 para padding interno
-                    { "md:w-5/12": !isMobile },
+                    { "md:max-w-sm": !isMobile }, // Alterado de w-5/12 para max-w-sm
                     { "ml-12": isMobile },
                     { "md:mr-8": !isMobile && i % 2 === 0 }, // Margem para card alinhado à esquerda
                     { "md:ml-8": !isMobile && i % 2 !== 0 }  // Margem para card alinhado à direita
@@ -215,7 +215,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   "relative flex items-center w-full",
                   { "flex-row-reverse": !isMobile && isLeft }
                 )}>
-                  <div className={cn("hidden md:block", { "w-5/12": !isMobile })}></div>
+                  <div className={cn("hidden md:block", { "md:max-w-sm": !isMobile })}></div> {/* Alterado de w-5/12 para max-w-sm */}
                   
                   <div className="z-10 absolute left-8 md:left-1/2 top-1/2 -translate-y-1/2 md:transform md:-translate-x-1/2">
                     <div className="w-4 h-4 bg-gray-800 border-2 border-white rounded-full shadow-sm"></div>
@@ -223,7 +223,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading }) => {
                   
                   <div className={cn(
                     "w-full px-2 md:px-4", // Adicionado md:px-4 para padding interno
-                    { "md:w-5/12": !isMobile },
+                    { "md:max-w-sm": !isMobile }, // Alterado de w-5/12 para max-w-sm
                     { "ml-12": isMobile },
                     { "md:mr-8": !isMobile && isLeft }, // Margem para card alinhado à esquerda
                     { "md:ml-8": !isMobile && !isLeft }  // Margem para card alinhado à direita
