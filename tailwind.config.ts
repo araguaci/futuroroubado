@@ -90,13 +90,6 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      // Redefinindo os valores de espaçamento e largura
-      spacing: {
-        '8': '8rem', // Define 8 como 8rem (128px) para margens, paddings, etc.
-      },
-      width: {
-        '24': '0rem', // Define w-24 como 0rem
-      },
     },
   },
   plugins: [require("tailwindcss-animate")],
