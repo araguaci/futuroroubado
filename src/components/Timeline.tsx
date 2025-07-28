@@ -131,7 +131,8 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
           filteredEvents.map((event, index) => {
             const showYear = event.year !== lastYear;
             lastYear = event.year;
-            const isLeft = index % 2 === 0; // Determines side for desktop layout
+            // isLeft now correctly indicates if the card should be on the left side for desktop layout
+            const isLeft = index % 2 === 0; 
 
             return (
               <div key={`${event.nome}-${index}`} className="relative">
@@ -143,13 +144,20 @@ const Timeline: React.FC<TimelineProps> = ({ events }) => {
                         {event.yearLabel === String(event.year) ? event.year : event.yearLabel}
                       </span>
                     </div>
+                    {/* Horizontal line for desktop year marker */}
+                    <div className={cn(
+                      "hidden md:block absolute top-1/2 -translate-y-1/2 h-0.5 bg-gray-400 w-16", // Fixed width for simplicity
+                      { "left-[calc(50%-4rem)]": isLeft }, // Position to the left of the year circle
+                      { "right-[calc(50%-4rem)]": !isLeft } // Position to the right of the year circle
+                    )}></div>
                   </div>
                 )}
                 
                 <div className={cn(
                   "relative mb-8 flex items-center w-full",
                   // On desktop, alternate sides. On mobile, always left-aligned (no flex-row-reverse)
-                  { "flex-row-reverse": !isMobile && isLeft }
+                  // flex-row-reverse is applied when the card should be on the right side (!isLeft)
+                  { "flex-row-reverse": !isMobile && !isLeft }
                 )}>
                   {/* Spacer for desktop layout */}
                   <div className={cn("hidden md:block", { "w-5/12": !isMobile })}></div>
