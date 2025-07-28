@@ -44,8 +44,8 @@ const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, is
   const pointerClasses = cn(
     'absolute w-0 h-0 border-t-8 border-b-8 border-solid',
     {
-      [`border-l-8 ${currentColors.pointerBorder} -right-4`]: !isMobile && isLeft, // Ponteiro para a direita (cartão na esquerda)
-      [`border-r-8 ${currentColors.pointerBorder} -left-4`]: !isMobile && !isLeft, // Ponteiro para a esquerda (cartão na direita)
+      [`border-l-8 ${currentColors.pointerBorder} -right-4 border-t-transparent border-b-transparent`]: !isMobile && isLeft, // Ponteiro para a direita (cartão na esquerda)
+      [`border-r-8 ${currentColors.pointerBorder} -left-4 border-t-transparent border-b-transparent`]: !isMobile && !isLeft, // Ponteiro para a esquerda (cartão na direita)
       'top-1/2 -translate-y-1/2': !isMobile, // Centraliza verticalmente no desktop
     }
   );
