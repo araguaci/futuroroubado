@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import TimelineEventCard from './TimelineEventCard';
+import CategoryIcon from './CategoryIcon';
 import { ScandalEvent } from '@/types';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { cn } from '@/lib/utils';
@@ -56,6 +57,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading, pageType }) => {
   const pageConfig = {
     politica: {
       title: 'Linha do Tempo de Escândalos Políticos',
+      icon: 'Abuso de Poder',
       subtitle: 'Uma retrospectiva dos principais casos de corrupção no Brasil.',
       navigation: [
         { text: 'Ver Escândalos da Justiça', link: '/justica' },
@@ -66,6 +68,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading, pageType }) => {
     },
     justica: {
       title: 'Linha do Tempo de Escândalos na Justiça',
+      icon: 'Venda de Sentença',
       subtitle: 'Uma retrospectiva dos principais casos de corrupção no judiciário brasileiro.',
       navigation: [
         { text: 'Ver Escândalos Políticos', link: '/' },
@@ -76,6 +79,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading, pageType }) => {
     },
     financeiro: {
       title: 'Linha do Tempo de Escândalos Financeiros',
+      icon: 'Fraude Financeira',
       subtitle: 'Uma retrospectiva dos principais casos no sistema financeiro brasileiro.',
       navigation: [
         { text: 'Ver Escândalos Políticos', link: '/' },
@@ -185,8 +189,8 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading, pageType }) => {
   return (
     <div className="w-full max-w-6xl mx-auto p-4 sm:p-8 font-sans">
       <header className="text-center mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900">{config.title}</h1>
-        <p className="text-md text-gray-600 mt-2">{config.subtitle}</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900"><CategoryIcon category={config.icon} className='inline font-bold w-8 h-7 mb-2 mr-2' />{config.title}</h2>
+        <h3 className="text-md text-gray-600 mt-2">{config.subtitle}</h3>
       </header>
 
       <div className="mb-12 flex justify-center items-center gap-4 flex-wrap">
