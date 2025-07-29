@@ -1,0 +1,74 @@
+{
+  "2004": [
+    {
+      "estado": "PR/SP/RJ/AM/... (nacional)",
+      "titulo": "Operação Farol da Colina (caso Banestado)",
+      "descricao": "Mega vencimento de divisas e evasão de dólares via contas offshore ligadas ao Banestado.",
+      "envolvidos": ["Doleiros como Alberto Youssef, Armando Santone e outros 103 presos"],
+      "consequencias": ["103 prisões, dezenas de condenações por evasão e lavagem ditas 'maiores da PF até então'"] 
+    }
+  ],
+  "2006": [
+    {
+      "estado": "RS",
+      "titulo": "Bolha do Alicate (empresa Mundial S.A.)",
+      "descricao": "Manipulação de mercado e fraude contábil para inflar artificialmente o valor das ações da Mundial.",
+      "envolvidos": ["Michael Ceitlin (presidente da Mundial), Rafael Ferri e agentes autônomos de investimento"],
+      "consequencias": ["Denúncias por manipulação de mercado; absolvição em multa; algumas penas restritivas"] 
+    }
+  ],
+  "2010": [
+    {
+      "estado": "SP (nacional)",
+      "titulo": "Banco Panamericano (Grupo Silvio Santos)",
+      "descricao": "Rombo contábil de cerca de R$ 4 bilhões devido a fraude em balanços e empréstimos irregulares.",
+      "envolvidos": ["Cid Ferreira (diretor), ex-diretores do banco"],
+      "consequencias": ["Intervenção do Banco Central, venda ao BTG Pactual, ação criminal contra executivos"] 
+    }
+  ],
+  "2014": [
+    {
+      "estado": "MA/BR (nacional)",
+      "titulo": "Telexfree – esquema de pirâmide",
+      "descricao": "Operação Ponzi bilionária sem autorização da CVM, milionárias captações via afiliados.",
+      "envolvidos": ["Ympactus Comercial S/A (Telexfree), Ronald Guimarães Levinsohn, afiliados"],
+      "consequencias": ["Suspensão das operações, bloqueio de bens, recuperação judicial, ações penais"] 
+    }
+  ],
+  "2016": [
+    {
+      "estado": "RJ/SP (nacional)",
+      "titulo": "Operação Recomeço",
+      "descricao": "Desvios de cerca de R$ 100 milhões dos fundos de pensão Petros, Postalis, etc., usados para financiar a Galileo e afetar universidades.",
+      "envolvidos": ["Executivos dos fundos de pensão, empresários Ronald Levinsohn, grupo Galileo Educacional"],
+      "consequencias": ["Quebra da Gama Filho e UniverCidade, bloqueio de R$ 1,35 bilhão, prisões e processos"] 
+    }
+  ],
+  "2019": [
+    {
+      "estado": "SP (nacional)",
+      "titulo": "Operação Disfarces de Mamom (Banco Paulista)",
+      "descricao": "Lavagem de aproximadamente R$ 48 milhões via contratos falsos entre Odebrecht e empresa financeira.",
+      "envolvidos": ["Banco Paulista, executivo Paulo Barreto (“Lance”), Odebrecht, Meinl Bank Ltd."],
+      "consequencias": ["Denúncias da PF; processo na Operação Lava Jato (fase 61ª)"] 
+    }
+  ],
+  "2022": [
+    {
+      "estado": "nacional",
+      "titulo": "golpes operadoras de planos de saúde no pós‑Covid",
+      "descricao": "Fraudes massivas via reembolsos duplicados, falsas cobranças, laudos fraudulentos e prestadores fantasmas.",
+      "envolvidos": ["Beneficiários, prestadores de serviço e profissionais fraudulentos"],
+      "consequencias": ["Prejuízo estimado em R$ 30–34 bilhões em 2022; investigação e processos no setor"] 
+    }
+  ],
+  "2023": [
+    {
+      "estado": "nacional",
+      "titulo": "Fraude contábil das Lojas Americanas",
+      "descricao": "Manipulação de balanços omitindo dívidas e superestimando ativos; uso indevido de risco sacado.",
+      "envolvidos": ["Gestão da Americanas, ex-diretor financeiro Fábio Abrate, bancos Itaú, Santander"],
+      "consequencias": ["Prejuízo superior a R$ 20 bilhões, recuperação judicial com dívidas acima de R$ 40 bilhões, investigação da CVM e MPF"] 
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "2015": [
+    {
+      "estado": "CE",
+      "titulo": "Operação Expresso 150",
+      "descricao": "Desembargadores e juízes do Ceará investigados por venda de habeas corpus e liminares durante plantões judiciais.",
+      "envolvidos": ["Desembargadores Francisco Pedrosa Teixeira, Sergia Maria Mendonça Miranda, Váldsen da Silva Alves Pereira (aposentado)", "advogados e traficantes beneficiados"],
+      "consequencias": ["Indiciamento no STJ, afastamentos e processos disciplinares no TJ‑CE"] 
+    }
+  ],
+  "2017": [
+    {
+      "estado": "RN",
+      "titulo": "Esquema de venda de sentenças (TRF‑5)",
+      "descricao": "Desembargador aposentado e outros envolvidos condenados por exploração de prestígio, falsidade ideológica, lavagem de dinheiro, associação criminosa entre 2015–2017.",
+      "envolvidos": ["Desembargador Francisco Barros Dias (aposentado)", "outros seis acusados"],
+      "consequencias": ["Condenação federal — pena de 38 anos de prisão e multa"] 
+    }
+  ],
+  "2019": [
+    {
+      "estado": "BA",
+      "titulo": "Operação Faroeste",
+      "descricao": "Esquema de grilagem de terras e venda de sentenças envolvendo desembargadores do TJ‑BA, advogados e servidores públicos.",
+      "envolvidos": ["Desembargadores Maria do Socorro Barreto Santiago, Ilona Reis, Lígia Cunha, José Olegário Monção, Maria da Graça Osório", "produtores rurais, advogados, servidoras e servidores do MP‑BA"],
+      "consequencias": ["Prisões preventivas, afastamentos, delações, denúncias ao STJ"] 
+    },
+    {
+      "estado": "PR",
+      "titulo": "Vaza Jato - Vazamento de Mensagens da Lava Jato",
+      "descricao": "Vazamento de conversas mostrando colaboração imprópria entre juiz e procuradores, sugerindo parcialidade.",
+      "envolvidos": "Juiz Sergio Moro, procurador Deltan Dallagnol, equipe da Lava Jato.",
+      "consequencias": "Anulação de condenações pelo STF; Lula libertado; Moro deixou cargo de ministro; Dallagnol cassado como procurador; investigações sobre hackeamento (Operation Spoofing)."
+    }
+  ],
+  "2022": [
+    {
+      "estado": "ES",
+      "titulo": "Judges atuando em casos de recuperação judicial",
+      "descricao": "Juízes que atuaram em grandes recuperações judiciais aceitaram cargos ou consultorias em empresas envolvidas nos processos, violando impedimentos legais.",
+      "envolvidos": ["Juiz do ES responsável por recuperações da Itapemirim e outras empresas", "administradores judiciais e credores"],
+      "consequencias": ["Processos administrativos no CNJ, aposentadoria compulsória e abertura de procedimentos ético‑disciplinares"] 
+    }
+  ],
+  "2023": [
+    {
+      "estado": "Federal",
+      "titulo": "Sistema Faroeste de Corrupção no Judiciário",
+      "descricao": "Investigações sobre venda de decisões atingindo 14 tribunais de justiça.",
+      "envolvidos": "Magistrados de vários TJs estaduais.",
+      "consequencias": "Afastamentos de 16 desembargadores e 7 juízes; ações penais em curso."
+    }
+  ],
+  "2024": [
+    {
+      "estado": "MA",
+      "titulo": "Venda de Sentenças no TJ-MA",
+      "descricao": "Esquema de venda de sentenças com propinas fracionadas contra o Banco do Nordeste.",
+      "envolvidos": "Desembargadores e juízes do TJ-MA.",
+      "consequencias": "Afastamento dos envolvidos; investigações pela PF e STJ."
+    },
+    {
+      "estado": "CE",
+      "titulo": "Venda de Liminares por Ex-Desembargadores",
+      "descricao": "Recurso contra sentença de ex-desembargadores acusados de venda de liminares.",
+      "envolvidos": "Ex-desembargadores do TJ-CE e esposa de um deles.",
+      "consequencias": "Absolvição inicial recorrida pelo MP; processo em andamento."
+    },
+    {
+      "estado": "Federal",
+      "titulo": "Rede de Venda de Sentenças Envolvendo STJ",
+      "descricao": "Investigação de venda de sentenças em gabinetes de ministros do STJ.",
+      "envolvidos": "Funcionários e ministros do STJ; advogados e lobistas.",
+      "consequencias": "Investigações pela PF em sigilo; possíveis buscas no STJ."
+    }
+  ],
+  "2025": [
+    {
+      "estado": "MA",
+      "titulo": "Operação 18 Minutos – venda de sentenças no TJ‑MA",
+      "descricao": "Indiciamento de desembargadores e juízes por corrupção, lavagem e organização criminosa por liberação fraudulenta de alvarás judiciais.",
+      "envolvidos": ["Desembargadores Nelma Sarney, Antônio Guerreiro Júnior, Luiz Gonzaga Almeida", "juízes Alice de Sousa Rocha, Cristiano Simas de Sousa", "advogados e servidores"],
+      "consequencias": ["Relatório da PF enviado ao STJ, afastamentos determinados pelo CNJ"] 
+    },
+    {
+      "estado": "MS",
+      "titulo": "Operação Última Ratio – venda de decisões no TJ‑MS",
+      "descricao": "Provas de corrupção, falsificação e extorsão envolvendo desembargadores que vendiam sentenças; esquema incluía conselheiro do TCE‑MS.",
+      "envolvidos": ["Desembargadores Alexandre Aguiar Bastos, Marcos José de Brito Rodrigues, Sideni Pimentel, Vladimir Abreu da Silva, Sergio Fernandes Martins; desembargadores aposentados Julio Roberto Siqueira Cardoso, Divoncir Schreiner Maran; conselheiro Osmar Jeronymo"],
+      "consequencias": ["Medidas de afastamento, apreensão de milhões em espécie, ação penal pela PGR tramitando no STF"] 
+    },
+    {
+      "estado": "MS",
+      "titulo": "Venda de Decisões no TJ-MS",
+      "descricao": "Esquema de corrupção envolvendo venda de decisões judiciais por desembargadores, com intermediação de advogados e filhos dos magistrados.",
+      "envolvidos": "Desembargadores Alexandre Aguiar Bastos, Marcos José de Brito Rodrigues, Sideni Soncini Pimentel, Vladimir Abreu da Silva, Sergio Fernandes Martins, Julio Roberto Siqueira Cardoso (aposentado), Divoncir Schreiner Maran (aposentado); advogado Felix Jayme da Cunha; conselheiro Osmar Domingues Jeronymo.",
+      "consequencias": "Afastamento de desembargadores pelo STF; inquérito enviado à PGR para ação penal; redistribuição de processos; busca e apreensão de R$ 3 milhões em espécie."
+    },
+    {
+      "estado": "SP",
+      "titulo": "Venda de Sentenças por Desembargador de SP",
+      "descricao": "Desembargador acusado de vender sentenças em quatro processos, incluindo revogação de prisões e decisões favoráveis a réus.",
+      "envolvidos": "Desembargador Ivo de Almeida; quatro outros denunciados.",
+      "consequencias": "Denúncia pela PGR por corrupção e lavagem de dinheiro; investigações em curso."
+    },
+    {
+      "estado": "RJ",
+      "titulo": "Esquema de Corrupção com Ex-Governador Witzel",
+      "descricao": "Condenação por corrupção no Poder Judiciário durante gestão de Wilson Witzel, envolvendo venda de decisões.",
+      "envolvidos": "Desembargadores do TJ-RJ; ex-governador Wilson Witzel.",
+      "consequencias": "Condenações pelo STJ; prisões e inelegibilidades."
+    },
+    {
+      "estado": "ES",
+      "titulo": "Operação Naufrágio - Corrupção na Justiça do ES",
+      "descricao": "Esquema de corrupção e venda de sentenças deflagrado em 2008, com condenações finais em 2025.",
+      "envolvidos": "Juízes, advogados, desembargadores do TJ-ES.",
+      "consequencias": "Condenações de dez réus pelo STJ por corrupção; afastamentos e penas de prisão."
+    }
+  ]
+}

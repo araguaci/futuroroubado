@@ -2,7 +2,7 @@ import Timeline from '@/components/Timeline';
 import React, { useState, useEffect } from 'react';
 import { ScandalEvent } from '@/types';
 import { processScandalsData } from '@/utils/data-processing';
-import { StopWar } from '@/components/StopWar'; // Importar o componente MadeWithDyad
+import { MadeWithDyad } from '@/components/StopWar'; // Importar o componente MadeWithDyad
 
 const Index = () => {
   const [events, setEvents] = useState<ScandalEvent[]>([]);
@@ -24,7 +24,7 @@ const Index = () => {
       <div className="relative z-10">
         <Timeline events={events} isLoading={isLoading} pageType="politica" />
       </div>
-      <StopWar /> {/* Adicionar o componente MadeWithDyad aqui */}
+      <MadeWithDyad /> {/* Adicionar o componente MadeWithDyad aqui */}
     </div>
   );
 };

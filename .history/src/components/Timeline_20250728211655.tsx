@@ -21,7 +21,6 @@ import {
 import TimelineFilterControls from './TimelineFilterControls';
 import { Link } from 'react-router-dom';
 import FinancialScandalSources from './FinancialScandalSources';
-import JusticeScandalSources from './JusticeScandalSources';
 
 interface TimelineProps {
   events: ScandalEvent[];
@@ -292,7 +291,6 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading, pageType }) => {
       </div>
 
       {pageType === 'financeiro' && <FinancialScandalSources />}
-      {pageType === 'justica' && <JusticeScandalSources />}
 
       {showScrollToTop && (
         <Button

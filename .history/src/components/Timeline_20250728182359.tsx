@@ -21,7 +21,6 @@ import {
 import TimelineFilterControls from './TimelineFilterControls';
 import { Link } from 'react-router-dom';
 import FinancialScandalSources from './FinancialScandalSources';
-import JusticeScandalSources from './JusticeScandalSources';
 
 interface TimelineProps {
   events: ScandalEvent[];
@@ -189,6 +188,8 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading, pageType }) => {
         <p className="text-md text-gray-600 mt-2">{config.subtitle}</p>
       </header>
 
+      {pageType === 'financeiro' && <FinancialScandalSources />}
+      
       <div className="mb-12 flex justify-center items-center gap-4 flex-wrap">
         <Sheet>
           <SheetTrigger asChild>
@@ -290,9 +291,6 @@ const Timeline: React.FC<TimelineProps> = ({ events, isLoading, pageType }) => {
           })
         )}
       </div>
-
-      {pageType === 'financeiro' && <FinancialScandalSources />}
-      {pageType === 'justica' && <JusticeScandalSources />}
 
       {showScrollToTop && (
         <Button
