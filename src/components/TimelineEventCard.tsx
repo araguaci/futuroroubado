@@ -15,7 +15,7 @@ interface TimelineEventCardProps {
 }
 
 const TimelineEventCard: React.FC<TimelineEventCardProps> = ({ event, isLeft, isMobile, onClick }) => {
-  const chatGptQuery = `Resuma o seguinte escândalo político brasileiro em 3 parágrafos, explicando o que foi, os principais envolvidos e as consequências: (título: ${event.nome}, descrição: ${event.descricao})`;
+  const chatGptQuery = `Resuma escândalo brasileiro em 5 parágrafos com fontes, explicando o que foi, os principais envolvidos e as consequências: (título: ${event.nome}, descrição: ${event.descricao})`;
   const chatGptUrl = `https://chat.openai.com/?q=${encodeURIComponent(chatGptQuery)}`;
 
   return (

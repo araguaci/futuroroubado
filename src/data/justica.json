@@ -1,4 +1,186 @@
 {
+  "1992": [
+    {
+      "estado": "São Paulo",
+      "titulo": "Caso do Fórum do TRT-SP",
+      "descricao": "Esquema de corrupção envolvendo a construção do fórum do Tribunal Regional do Trabalho em São Paulo, com desvios de verbas iniciados em 1992, detectados por auditorias do TCU em 1995, e obra abandonada em 1998.",
+      "envolvidos": ["Nicolau dos Santos Neto", "Luiz Estevão", "Construtora Incal", "Grupo OK"],
+      "consequencias": ["Condenação de Luiz Estevão a 25 anos de prisão em 2016", "Bloqueio de 1,2 mil imóveis de Luiz Estevão", "Cobrança de R$ 2 bilhões pela CGU", "Obra abandonada com 64% de conclusão apesar de 98% da verba liberada"]
+    }
+  ],
+  "2001": [
+    {
+      "estado": "Minas Gerais",
+      "titulo": "Caso Antônio Fernando Guimarães",
+      "descricao": "Desembargador teve aluguel de apartamento de luxo pago por escritório de advocacia em troca de decisões favoráveis.",
+      "envolvidos": ["Antônio Fernando Guimarães", "Escritório Vilhena&Vilhena"],
+      "consequencias": ["Aposentadoria compulsória em 2011", "Recebe R$ 37 mil brutos mensais"]
+    }
+  ],
+  "2007": [
+    {
+      "estado": "Bahia",
+      "titulo": "Caso Rubem Dário Peregrino Cunha",
+      "descricao": "Desembargador cobrou R$ 400 mil para livrar prefeito de acusação de corrupção, além de pedir cargo para a namorada do filho.",
+      "envolvidos": ["Rubem Dário Peregrino Cunha", "Antônio Pascoal Batista", "Nizan Gomes Cunha Neto"],
+      "consequencias": ["Aposentadoria compulsória em 2012", "Recebe R$ 45,7 mil brutos mensais como inativo"]
+    },
+    {
+      "estado": "Rio Grande do Norte",
+      "titulo": "Caso José Dantas de Lira",
+      "descricao": "Juiz cobrava R$ 750 por liminar em esquema com filho, advogado, funcionário do tribunal e corretores, movimentando mais de R$ 3 milhões entre 2007 e 2009.",
+      "envolvidos": ["José Dantas de Lira", "Filho de José Dantas de Lira", "Ivan Holanda Pereira", "Funcionário do tribunal", "Dois corretores"],
+      "consequencias": ["Aposentadoria compulsória em 2017", "Recebe cerca de R$ 30 mil brutos mensais"]
+    }
+  ],
+  "2008": [
+    {
+      "estado": "Espírito Santo",
+      "titulo": "Operação Naufrágio",
+      "descricao": "Investigação iniciada em 2008 sobre suspeitas de nepotismo e venda de decisões no Tribunal de Justiça do Espírito Santo, com ação penal ainda não julgada pelo STJ.",
+      "envolvidos": ["Três desembargadores (presos em 2008)", "Um desembargador (réu atual)", "26 pessoas denunciadas em 2010 pelo Ministério Público Federal"],
+      "consequencias": ["Prescrição de crimes para alguns acusados após completarem 70 anos", "Morte de cinco denunciados antes de 2021", "Julgamento retirado de pauta no STJ em 2025 devido a conflito de agenda"]
+    }
+  ],
+  "2010": [
+    {
+      "estado": "Amazonas",
+      "titulo": "Caso Jovaldo dos Santos Aguiar",
+      "descricao": "Corregedor cobrou decisão de empresário e advogado, deixando 31 processos parados, e foi denunciado por não entregar decisão negociada.",
+      "envolvidos": ["Jovaldo dos Santos Aguiar"],
+      "consequencias": ["Aposentadoria compulsória em 2010", "Recebe R$ 13 mil por mês de aposentadoria"]
+    }
+  ],
+  "2012": [
+    {
+      "estado": "Rio Grande do Sul",
+      "titulo": "Caso Edgard Antônio Lippmann Júnior",
+      "descricao": "Desembargador recebeu três aposentadorias compulsórias por venda de sentenças, incluindo decisão para urgência no pagamento de dívida do governo.",
+      "envolvidos": ["Edgard Antônio Lippmann Júnior"],
+      "consequencias": ["Três aposentadorias compulsórias (2012, 2013, 2015)", "Recebe R$ 35 mil por mês"]
+    }
+  ],
+  "2015": [
+    {
+      "estado": "Nacional",
+      "titulo": "Operação Zelotes",
+      "descricao": "Operação iniciada em março de 2015 investigando corrupção no CARF, com empresas pagando propinas para anular multas fiscais, causando prejuízo estimado de R$ 19 bilhões.",
+      "envolvidos": ["Gerdau", "Bradesco", "Santander", "RBS", "Banco Safra", "André Gerdau", "Guido Mantega", "Luiz Claudio (filho de Lula)", "Lobistas"],
+      "consequencias": ["Indiciamento de mais de 70 empresas e diversos indivíduos", "Intimação de Lula para depor", "Mandados de condução coercitiva em fases da operação", "Prejuízo estimado de R$ 19 bilhões aos cofres públicos", "Operação ainda em andamento"]
+    }
+  ],
+  "2016": [
+    {
+      "estado": "Pará",
+      "titulo": "Caso José Admilson Gomes Pereira",
+      "descricao": "Juiz cobrou R$ 70 mil por habeas corpus que garantiu liberdade de acusado de contratar pistoleiros.",
+      "envolvidos": ["José Admilson Gomes Pereira", "Carlos José Campos Souto", "Irmã de Carlos José Campos Souto", "Irmão do magistrado"],
+      "consequencias": ["Aposentadoria compulsória", "Recebe quase R$ 25 mil mensais"]
+    }
+  ],
+  "2020": [
+    {
+      "estado": "Rio de Janeiro",
+      "titulo": "Caso Witzel",
+      "descricao": "Investigação sobre esquema de corrupção durante a gestão do ex-governador Wilson Witzel, com condenações de desembargadores.",
+      "envolvidos": ["Wilson Witzel", "Desembargadores condenados"],
+      "consequencias": ["Condenação de desembargadores pelo STJ em 2025"]
+    }
+  ],
+  "2021": [
+    {
+      "estado": "Bahia",
+      "titulo": "Operação Faroeste",
+      "descricao": "Investigação que levou seis desembargadores do Tribunal de Justiça da Bahia a se tornarem réus, com conexão a grilagem de terra e delação premiada rescindida.",
+      "envolvidos": ["Seis desembargadores (réus)", "Uma desembargadora (colaboração premiada, rescindida em 2024)", "68 nomes citados na delação (magistrados, advogados, servidores públicos, empresários)", "Adailton Maturino (empresário, falso cônsul)"],
+      "consequencias": ["Primeira delação premiada de uma desembargadora, validada em 2021", "Rescisão da delação em 2024 por descumprimento, com manutenção das provas"]
+    },
+    {
+      "estado": "Ceará",
+      "titulo": "Operação Expresso 150",
+      "descricao": "Investigação sobre esquema de venda de liminares no Tribunal de Justiça do Ceará.",
+      "envolvidos": ["Quatro desembargadores", "Juízes", "Advogados"],
+      "consequencias": ["Afastamento de magistrados", "Prisões preventivas"]
+    }
+  ],
+  "2022": [
+    {
+      "estado": "Amazonas",
+      "titulo": "Processo contra desembargadora aposentada",
+      "descricao": "Ação aberta em 2022 contra uma desembargadora aposentada do Tribunal de Justiça do Amazonas, sob suspeita de beneficiar traficantes e outras organizações criminosas.",
+      "envolvidos": ["Uma desembargadora aposentada do TJ-AM"],
+      "consequencias": ["Ação aguarda decisão"]
+    }
+  ],
+  "2023": [
+    {
+      "estado": "Mato Grosso do Sul",
+      "titulo": "Operação Última Ratio",
+      "descricao": "Investigação sobre esquema de venda de sentenças no Tribunal de Justiça de Mato Grosso do Sul, com afastamento de desembargadores e uso de tornozeleiras eletrônicas para monitoramento.",
+      "envolvidos": ["Desembargador Vladimir Abreu da Silva", "Desembargador Alexandre Aguiar Bastos", "Desembargador Sideni Soncini Pimentel", "Desembargador Marcos José de Brito Rodrigues", "Desembargador Sérgio Fernandes Martins", "Conselheiro do TCE-MS Osmar Domingues Jeronymo", "Servidor do TJ-MS Danillo Moya Jeronymo", "Empresário Andreson de Oliveira Gonçalves"],
+      "consequencias": ["Afastamento de cinco desembargadores, um conselheiro do TCE-MS e um servidor", "Colocação de tornozeleiras eletrônicas em magistrados", "44 buscas em endereços em São Paulo, Mato Grosso, Mato Grosso do Sul e Brasília", "Apreensão de quase R$ 3 milhões em espécie"]
+    },
+    {
+      "estado": "Mato Grosso",
+      "titulo": "Esquema no TJ-MT",
+      "descricao": "Investigação sobre suposto esquema de venda de sentenças no Tribunal de Justiça de Mato Grosso, com base em conversas no celular de Roberto Zampieri, apontado como lobista, incluindo suspeitas de propinas via Pix e barra de ouro.",
+      "envolvidos": ["Desembargador Sebastião de Moraes Filho", "Desembargador João Ferreira Filho", "Juiz Ivan Lúcio Amarante", "Roberto Zampieri"],
+      "consequencias": ["Afastamento de dois desembargadores e um juiz pelo CNJ", "Investigação conduzida pelo CNJ com informações da Polícia Civil de Mato Grosso"]
+    },
+    {
+      "estado": "Tocantins",
+      "titulo": "Operação Máximus",
+      "descricao": "Investigação sobre suposto esquema de venda de sentenças no Tribunal de Justiça do Tocantins, envolvendo cinco desembargadores, três juízes e o governador, com áudios revelando insatisfação com pagamentos de propina.",
+      "envolvidos": ["Desembargador Helvécio de Brito Maia Neto", "Desembargadora Angela Issa Haonat", "Desembargadora Angela Maria Ribeiro Prudente", "Desembargadora Etelvina Maria Sampaio Felipe", "Desembargador João Rigo Guimarães", "Juiz José Maria Lima", "Juiz Marcelo Eliseu Rostirolla", "Juiz Ocelio Nobre da Silva", "Juiz Roniclay Alves de Morais", "Governador Wanderlei Barbosa", "Thales André Pereira Maia", "Advogado Thiago Sulino", "Advogado Kledson de Moura Lima"],
+      "consequencias": ["Afastamento de cinco desembargadores e três juízes", "60 buscas em Tocantins, Minas Gerais, São Paulo, Goiás e Distrito Federal", "Identificação de tentáculos em outras Cortes e órgãos públicos"]
+    },
+    {
+      "estado": "Região não especificada (TRF-1)",
+      "titulo": "Operação Habeas Pater",
+      "descricao": "Operação de 2023 que investigou um juiz do TRF-1 por decisões que beneficiaram organização criminosa envolvida em tráfico internacional de drogas, lavagem de dinheiro e crimes financeiros.",
+      "envolvidos": ["Um juiz do TRF-1 (aposentado após a operação)"],
+      "consequencias": ["Inquérito ainda tramita no STJ"]
+    }
+  ],
+  "2024": [
+    {
+      "estado": "Mato Grosso",
+      "titulo": "Investigações em cortes estaduais",
+      "descricao": "Investigações recentes sobre esquemas de venda de decisões judiciais, com conexão a grilagem de terra e envolvimento de gabinetes do STJ.",
+      "envolvidos": ["Andreson Oliveira (lobista, preso desde 26/11/2023)"],
+      "consequencias": ["Inquéritos sob responsabilidade do ministro Cristiano Zanin no STF"]
+    },
+    {
+      "estado": "Mato Grosso do Sul",
+      "titulo": "Investigações em cortes estaduais",
+      "descricao": "Investigações recentes sobre venda de decisões judiciais, com conexão a grilagem de terra e envolvimento de filhos de desembargadores.",
+      "envolvidos": ["Cinco desembargadores (afastados pelo STJ)", "Andreson Oliveira (lobista, preso desde 26/11/2023)"],
+      "consequencias": ["Afastamento de cinco desembargadores pelo STJ", "Inquéritos sob responsabilidade do ministro Cristiano Zanin no STF"]
+    },
+    {
+      "estado": "Maranhão",
+      "titulo": "Operação 18 Minutos",
+      "descricao": "Investigação sobre suposta corrupção no Tribunal de Justiça do Maranhão, envolvendo liberação de alvarás em prejuízo do Banco do Nordeste, com estimativa de prejuízo de R$ 17 milhões e tentativa de nova fraude de R$ 29 milhões.",
+      "envolvidos": ["Desembargador Luiz Gonzaga Almeida Filho", "Desembargador Marcelino Everton Chaves", "Desembargadora Nelma Celeste Sousa Silva Sarney Costa", "Desembargador Antônio Pacheco Guerreiro Júnior", "Juiz Cristiano Simas de Sousa", "Juiz Alice de Sousa Rocha", "Ex-advogado do Banco (F.X. de S.F.)"],
+      "consequencias": ["Afastamento de três desembargadores e dois juízes por um ano pelo STJ", "Prisões e buscas em endereços"]
+    }
+  ],
+  "2025": [
+    {
+      "estado": "Mato Grosso do Sul",
+      "titulo": "Operação Última Ratio (continuação)",
+      "descricao": "PF pede ação contra 7 desembargadores por venda de decisão, com provas de corrupção.",
+      "envolvidos": ["Sete desembargadores"],
+      "consequencias": ["Pedido de abertura de ação penal pela PGR"]
+    },
+    {
+      "estado": "Rio de Janeiro",
+      "titulo": "Operação Mais Valia",
+      "descricao": "STJ condena desembargadores do Rio por esquema com ex-governador Wilson Witzel.",
+      "envolvidos": ["Desembargadores", "Wilson Witzel"],
+      "consequencias": ["Condenações pelo STJ"]
+    }
+  ],
   "2015": [
     {
       "estado": "CE",
@@ -76,19 +258,34 @@
   ],
   "2025": [
     {
+      "estado": "Mato Grosso",
+      "titulo": "Operação Sisamnes",
+      "descricao": "Investigação da Polícia Federal sobre esquema milionário de vazamento de informações sigilosas e venda de sentenças judiciais, iniciado em 2020 e intensificado após o assassinato do advogado Roberto Zampieri em 2023, em Cuiabá (MT). Envolve corrupção, violação de sigilo funcional, exploração de prestígio, lavagem de dinheiro, obstrução de Justiça e homicídios por encomenda, com indícios de acesso privilegiado a decisões judiciais e possíveis envolvimentos de servidores e gabinetes do STJ.",
+      "envolvidos": [
+        "Roberto Zampieri (advogado assassinado)",
+        "Eduardo Siqueira Campos (prefeito de Palmas, TO)",
+        "Andreson Gonçalves (lobista)",
+        "Advogado e policial civil (presos na 9ª fase)",
+        "Assessores do Ministério Público (TO)",
+        "Desembargadores e servidores do Tribunal de Justiça de Mato Grosso",
+        "Chefes de gabinete do STJ",
+        "Grupo 'Comando C4' (civis e militares)"
+      ],
+      "consequencias": [
+        "Prisões preventivas de envolvidos, incluindo prefeito, lobistas, advogados e assessores",
+        "Afastamentos de desembargadores, juízes e servidores",
+        "Bloqueio de bens no valor de R$ 50 milhões (espécie, carros, imóveis e ativos)",
+        "Sequestro de passaportes e imposição de medidas cautelares (recolhimento domiciliar, proibição de contato)",
+        "Cumprimento de mandados de busca e apreensão em múltiplas fases da operação"
+      ]
+    },
+    {
       "estado": "MA",
       "titulo": "Operação 18 Minutos – venda de sentenças no TJ‑MA",
       "descricao": "Indiciamento de desembargadores e juízes por corrupção, lavagem e organização criminosa por liberação fraudulenta de alvarás judiciais.",
       "envolvidos": ["Desembargadores Nelma Sarney, Antônio Guerreiro Júnior, Luiz Gonzaga Almeida", "juízes Alice de Sousa Rocha, Cristiano Simas de Sousa", "advogados e servidores"],
       "consequencias": ["Relatório da PF enviado ao STJ, afastamentos determinados pelo CNJ"] 
-    },
-    {
-      "estado": "MS",
-      "titulo": "Operação Última Ratio – venda de decisões no TJ‑MS",
-      "descricao": "Provas de corrupção, falsificação e extorsão envolvendo desembargadores que vendiam sentenças; esquema incluía conselheiro do TCE‑MS.",
-      "envolvidos": ["Desembargadores Alexandre Aguiar Bastos, Marcos José de Brito Rodrigues, Sideni Pimentel, Vladimir Abreu da Silva, Sergio Fernandes Martins; desembargadores aposentados Julio Roberto Siqueira Cardoso, Divoncir Schreiner Maran; conselheiro Osmar Jeronymo"],
-      "consequencias": ["Medidas de afastamento, apreensão de milhões em espécie, ação penal pela PGR tramitando no STF"] 
-    },
+    }, 
     {
       "estado": "MS",
       "titulo": "Venda de Decisões no TJ-MS",
