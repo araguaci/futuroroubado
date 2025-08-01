@@ -70,5 +70,163 @@
       "envolvidos": ["Gestão da Americanas, ex-diretor financeiro Fábio Abrate, bancos Itaú, Santander"],
       "consequencias": ["Prejuízo superior a R$ 20 bilhões, recuperação judicial com dívidas acima de R$ 40 bilhões, investigação da CVM e MPF"] 
     }
+  ],
+  "1995": [
+    {
+      "estado": "Bahia",
+      "titulo": "Liquidação do Banco Econômico",
+      "descricao": "Falência fraudulenta do Banco Econômico, com desvios e fraudes contábeis que levaram à intervenção do Banco Central, causando prejuízo de bilhões aos cofres públicos.",
+      "envolvidos": ["Família Calmon", "Banqueiros e diretores"],
+      "consequencias": ["Intervenção do BC", "Liquidação extrajudicial", "Processos judiciais prolongados"]
+    },
+    {
+      "estado": "Minas Gerais",
+      "titulo": "Falência do Banco Nacional",
+      "descricao": "Fraudes e desvios no Banco Nacional, levando à falência e intervenção, com rombo estimado em R$ 2 bilhões.",
+      "envolvidos": ["Grupo Magalhães Pinto", "Diretores do banco"],
+      "consequencias": ["Liquidação", "Prisões", "Recuperação parcial de ativos"]
+    }
+  ],
+  "1996": [
+    {
+      "estado": "Paraná",
+      "titulo": "Escândalo Banestado",
+      "descricao": "Desvios de R$ 42 bilhões via remessas ilegais para contas CC5 no exterior, envolvendo doleiros e corrupção no Banco do Estado do Paraná.",
+      "envolvidos": ["Alberto Youssef", "Banqueiros", "Políticos"],
+      "consequencias": ["CPI no Congresso", "Prisões", "Repatriação de parte dos fundos"]
+    }
+  ],
+  "1997": [
+    {
+      "estado": "Paraná",
+      "titulo": "Caso Bamerindus",
+      "descricao": "Fraudes e má gestão levando à falência do Bamerindus, com intervenção do BC e prejuízo de R$ 4 bilhões.",
+      "envolvidos": ["Família Maingué", "Diretores"],
+      "consequencias": ["Venda para HSBC", "Processos criminais"]
+    }
+  ],
+  "1999": [
+    {
+      "estado": "Nacional",
+      "titulo": "Caso Marka-FonteCindam",
+      "descricao": "Manipulação cambial durante a desvalorização do real, com ajuda do Banco Central, causando prejuízo de R$ 1,5 bilhão aos cofres públicos.",
+      "envolvidos": ["Salvatore Cacciola (Banco Marka)", "Luiz Cezar Fernandes (FonteCindam)", "Francisco Lopes (ex-presidente BC)"],
+      "consequencias": ["Condenações", "Prisão de Cacciola", "Indenizações"]
+    }
+  ],
+  "2005": [
+    {
+      "estado": "Nacional",
+      "titulo": "Mensalão - Envolvimento Banco Rural",
+      "descricao": "Banco Rural usado para empréstimos fictícios e lavagem de dinheiro no esquema do Mensalão.",
+      "envolvidos": ["José Roberto Salgado (Banco Rural)", "Marcos Valério"],
+      "consequencias": ["Condenações no STF", "Multas", "Cassação de mandatos"]
+    }
+  ],
+  "2008": [
+    {
+      "estado": "Nacional",
+      "titulo": "Caso Daniel Dantas - Opportunity",
+      "descricao": "Fraudes e corrupção envolvendo o Banco Opportunity em disputas societárias e subornos.",
+      "envolvidos": ["Daniel Dantas"],
+      "consequencias": ["Operação Satiagraha", "Prisões", "Absolvições parciais"]
+    }
+  ],
+  "2010": [
+    {
+      "estado": "Nacional",
+      "titulo": "Caso Panamericano",
+      "descricao": "Fraude contábil no Banco Panamericano, com rombo de R$ 4 bilhões descoberto após venda à Caixa.",
+      "envolvidos": ["Silvio Santos", "Diretores do banco"],
+      "consequencias": ["Injeção de capital pela Caixa", "Processos", "Venda do banco"]
+    }
+  ],
+  "2014": [
+    {
+      "estado": "Nacional",
+      "titulo": "Operação Lava Jato - Uso de bancos para lavagem",
+      "descricao": "Bancos usados para lavagem de dinheiro em propinas da Petrobras, envolvendo contas no exterior.",
+      "envolvidos": ["Doleiros", "Executivos de bancos internacionais"],
+      "consequencias": ["Multas bilionárias a bancos", "Acordos de leniência", "Prisões"]
+    }
+  ],
+  "2015": [
+    {
+      "estado": "Nacional",
+      "titulo": "Operação Zelotes",
+      "descricao": "Fraudes no CARF envolvendo bancos como Bradesco e Santander para redução de multas fiscais.",
+      "envolvidos": ["Executivos do Bradesco", "Santander", "Conselheiros do CARF"],
+      "consequencias": ["Indiciamentos", "Multas", "Reformas no CARF"]
+    },
+    {
+      "estado": "Nacional",
+      "titulo": "Caso BTG Pactual",
+      "descricao": "André Esteves preso na Lava Jato por obstrução de justiça e corrupção.",
+      "envolvidos": ["André Esteves"],
+      "consequencias": ["Prisão temporária", "Venda de ativos", "Absolvição posterior"]
+    }
+  ],
+  "2016": [
+    {
+      "estado": "Nacional",
+      "titulo": "Caso Odebrecht - Departamento de Propinas",
+      "descricao": "Uso de bancos suíços e offshores para pagamento de propinas.",
+      "envolvidos": ["Marcelo Odebrecht", "Bancos internacionais"],
+      "consequencias": ["Delações", "Multas globais de US$ 3,5 bi"]
+    }
+  ],
+  "2017": [
+    {
+      "estado": "Nacional",
+      "titulo": "Caso JBS - Empréstimos BNDES",
+      "descricao": "Propinas para empréstimos favorecidos do BNDES à JBS.",
+      "envolvidos": ["Joelsey Batista", "Luciano Coutinho (BNDES)"],
+      "consequencias": ["Delação dos Batista", "Prisões", "Devolução de valores"]
+    }
+  ],
+  "2018": [
+    {
+      "estado": "Bahia",
+      "titulo": "Caso Geddel - Bunker de R$ 51 mi",
+      "descricao": "Dinheiro encontrado em apartamento ligado a Geddel, proveniente de corrupção via Caixa Econômica.",
+      "envolvidos": ["Geddel Vieira Lima"],
+      "consequencias": ["Condenação a 14 anos", "Confisco do dinheiro"]
+    }
+  ],
+  "2020": [
+    {
+      "estado": "Nacional",
+      "titulo": "Dois Trilhões de Suspeitas",
+      "descricao": "Bancos globais como HSBC, JPMorgan moveram US$ 2 tri suspeitos, incluindo fluxos no Brasil.",
+      "envolvidos": ["HSBC", "JPMorgan", "Deutsche Bank"],
+      "consequencias": ["Investigações internacionais", "Multas"]
+    }
+  ],
+  "2023": [
+    {
+      "estado": "Nacional",
+      "titulo": "Caso Americanas",
+      "descricao": "Fraude contábil de R$ 20 bi, envolvendo bancos credores como BTG, Bradesco.",
+      "envolvidos": ["Executivos da Americanas", "Bancos credores"],
+      "consequencias": ["Recuperação judicial", "Processos na CVM", "Perdas para investidores"]
+    }
+  ],
+  "2024": [
+    {
+      "estado": "Nacional",
+      "titulo": "Caso Banco Master",
+      "descricao": "Suspeitas de lavagem de dinheiro via Banco Master em esquemas de corrupção.",
+      "envolvidos": ["Diretores do Banco Master"],
+      "consequencias": ["Investigações em andamento", "Bloqueios de contas"]
+    }
+  ],
+  "2025": [
+    {
+      "estado": "Nacional",
+      "titulo": "Escândalo Banco do Brasil - Crédito Rural",
+      "descricao": "Venda casada ilegal no crédito rural, prejuízo de R$ 841 bi ao agronegócio.",
+      "envolvidos": ["Banco do Brasil", "ABDAGRO"],
+      "consequencias": ["Ação judicial coletiva", "Mobilização do setor agro"]
+    }
   ]
 }
