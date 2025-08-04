@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { ScandalEvent } from '@/types';
 import { processFinanceiroData } from '@/utils/data-processing';
 import { StopWar } from '@/components/StopWar';
+import BackToTopButton from '@/components/BackToTopButton';
 
 const Financeiro = () => {
   const [events, setEvents] = useState<ScandalEvent[]>([]);
@@ -25,6 +26,7 @@ const Financeiro = () => {
         <Timeline events={events} isLoading={isLoading} pageType="financeiro" />
       </div>
       <StopWar />
+      <BackToTopButton />
     </div>
   );
 };

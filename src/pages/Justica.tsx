@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { ScandalEvent } from '@/types';
 import { processJusticaData } from '@/utils/data-processing';
 import { StopWar } from '@/components/StopWar';
+import BackToTopButton from '@/components/BackToTopButton';
 
 const Justica = () => {
   const [events, setEvents] = useState<ScandalEvent[]>([]);
@@ -25,6 +26,7 @@ const Justica = () => {
         <Timeline events={events} isLoading={isLoading} pageType="justica" />
       </div>
       <StopWar />
+      <BackToTopButton />
     </div>
   );
 };
